@@ -1,0 +1,16 @@
+
+WHAT IT DOES?
+=============
+camera device control module.
+
+
+HOW IT WAS BUILT?
+==================
+It can build the following shared library:
+libcam.device1.so
+
+
+HOW TO USE IT?
+==============
+See source code.
+

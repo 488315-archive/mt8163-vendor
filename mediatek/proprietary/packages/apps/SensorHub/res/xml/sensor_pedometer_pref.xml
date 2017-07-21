@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/pedometer_title">
+    <com.mediatek.sensorhub.ui.PedometerLayoutPreference
+        android:key="pedometer_set_view"
+        android:layout="@layout/sensor_pedometer_view"
+        android:selectable="false" />
+
+    <Preference android:key="0"
+        android:title="@string/accumulated_distance_string"/>
+
+    <Preference android:key="1"
+        android:title="@string/step_frequency_info"/>
+
+    <Preference android:key="2"
+        android:title="@string/accumulated_step_string"/>
+    
+    <Preference android:key="3"
+        android:title="@string/step_length_info"/>
+
+    <Preference android:key="total_steps"
+        android:title="@string/total_step_string"/>
+
+    <Preference android:key="total_distance"
+        android:title="@string/total_distance_string"/>
+</PreferenceScreen>

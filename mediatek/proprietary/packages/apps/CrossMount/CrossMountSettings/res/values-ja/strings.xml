@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">利用可能なデバイスが見つかりません。 もう一度CrossMountをオンにしてください。</string>
+    <string name="progress_scanning">検索中</string>
+    <string name="crossmount_enable_menu_item">CrossMountを有効にする</string>
+    <string name="crossmount_refresh_menu_item">更新</string>
+    <string name="rename_device_menu_item">このデバイスの名前を変更</string>
+    <string name="service_share_menu_item">サービス共有</string>
+    <string name="trust_list_menu_item">信頼リストを管理</string>
+    <string name="crossmount_preference_found_devices">利用可能なデバイス</string>
+    <string name="crossmount_is_visible_message">接続後、<xliff:g id="device_name">%1$s</xliff:g>は以下のデバイスのサービスを使用できます。</string>
+    <string name="service_sharing_message">あなたが許可をすれば、他のデバイスが次のサービスを使用できます。</string>
+    <string name="service_category_desc">お使いのデバイスのサービス</string>
+    <string name="service_is_mounted"><xliff:g id="service_name">%1$s</xliff:g>のマウント</string>
+    <string name="device_mounted_service"><xliff:g id="device_name">%1$s</xliff:g>が使用</string>
+    <string name="bluetooth_rename_button">名前の変更</string>
+    <string name="share_to_allow_pref">他人にデバイスの使用を許可する。</string>
+    <string name="share_to_category_desc">共有するデバイスを選択する</string>
+    <string name="mount_service_category_desc">デバイスのサービス</string>
+    <string name="disconnect_msg">現在のサービスを切断しますか？</string>
+    <string name="trust_list_category_desc">信頼されたデバイス</string>
+    <string name="trust_list_manage_message_desc">事前の確認なしに、次のデバイスがサービスを使用することを許可します。後からそれを望まないときには、信頼しないにできます。</string>
+    <string name="service_state_occupied">占有済み</string>
+    <string name="service_state_available">利用可能</string>
+    <string name="service_state_disable">無効</string>
+    <string name="service_state_enable">有効</string>
+    <string name="service_state_connecting">接続中</string>
+    <string name="service_state_connected">接続済み</string>
+    <string name="touch_name">CrossMountタッチ</string>
+    <string name="touch_msg">現在<xliff:g id="service_name">%1$s</xliff:g>に接続しています。 この場所にタッチしてください。</string>
+    <string name="disconnect_touch_menu_item">切断して終了する</string>
+    <string name="exit_touch_menu_item">終了のみ</string>
+    <string name="touch_exit_msg"><xliff:g id="service_name">%1$s</xliff:g>から切断。</string>
+    <string name="exit_touch_button">終了</string>
+</resources>

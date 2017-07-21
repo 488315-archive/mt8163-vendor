@@ -1,0 +1,20 @@
+This module creates SRSTruMedia library.
+
+This library is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+SRSTruMedia is the native audio Sound Effect engine which is used in music/video playback to create real sound experience.
+
+
+HOW IT WAS BUILT?
+==================
+This library is provided by 3-party company SRS lib.
+
+HOW TO USE IT?
+==============
+
+The SRSTruMedia libraries should not be used directly by an application developer.  
+
+The majority of source code for this library were written by SRS.  

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Kein verfügbares Gerät gefunden. Aktivieren Sie CrossMount und versuchen Sie es erneut.</string>
+    <string name="progress_scanning">Suchen...</string>
+    <string name="crossmount_enable_menu_item">CrossMount aktivieren</string>
+    <string name="crossmount_refresh_menu_item">Aktualisieren</string>
+    <string name="rename_device_menu_item">Gerät umbenennen</string>
+    <string name="service_share_menu_item">Dienst teilen</string>
+    <string name="trust_list_menu_item">Trust-Liste verwalten</string>
+    <string name="crossmount_preference_found_devices">Verfügbare Geräte</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> kann nach Verbindung Dienste der folgenden Geräte verwenden.</string>
+    <string name="service_sharing_message">Folgende Dienste können, falls Sie es erlauben, von anderen Geräten genutzt werden.</string>
+    <string name="service_category_desc">Dienste Ihres Geräts</string>
+    <string name="service_is_mounted"><xliff:g id="service_name">%1$s</xliff:g> mounten</string>
+    <string name="device_mounted_service">Verwendet von <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Umbenennen</string>
+    <string name="share_to_allow_pref">Anderen Anwendern Nutzung des Dienstes erlauben.</string>
+    <string name="share_to_category_desc">Gerät, das Sie teilen wollen, auswählen.</string>
+    <string name="mount_service_category_desc">Dienste des Geräts</string>
+    <string name="disconnect_msg">Verbindung zu aktuellem Dienst unterbrechen?</string>
+    <string name="trust_list_category_desc">Vertrauenswürdige Geräte</string>
+    <string name="trust_list_manage_message_desc">Sie erlauben den folgenden Geräten ohne vorherige Nachfrage Ihre Dienste zu nutzen. Sie können dies aufheben, indem Sie die Vertrauenswürdigkeit deaktivieren.</string>
+    <string name="service_state_occupied">Belegt</string>
+    <string name="service_state_available">Verfügbar</string>
+    <string name="service_state_disable">Deaktiviert</string>
+    <string name="service_state_enable">Aktiviert</string>
+    <string name="service_state_connecting">Verbindung wird aufgebaut</string>
+    <string name="service_state_connected">Verbindung aufgebaut</string>
+    <string name="touch_name">CrossMount antippen</string>
+    <string name="touch_msg">Zur Zeit verbunden mit <xliff:g id="service_name">%1$s</xliff:g>. Bitte berühren Sie diesen Bereich.</string>
+    <string name="disconnect_touch_menu_item">Verbindung trennen und Ende</string>
+    <string name="exit_touch_menu_item">Nur beenden</string>
+    <string name="touch_exit_msg">Von <xliff:g id="service_name">%1$s</xliff:g> trennen.</string>
+    <string name="exit_touch_button">Beenden</string>
+</resources>

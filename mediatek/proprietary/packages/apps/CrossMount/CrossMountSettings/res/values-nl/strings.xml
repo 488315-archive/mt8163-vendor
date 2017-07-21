@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Geen beschikbare apparaten gevonden in de omgeving Schakel CrossMount in om het nogmaals te proberen.</string>
+    <string name="progress_scanning">Bezig met zoeken</string>
+    <string name="crossmount_enable_menu_item">CrossMountinschakelen</string>
+    <string name="crossmount_refresh_menu_item">Vernieuwen</string>
+    <string name="rename_device_menu_item">Dit apparaat hernoemen</string>
+    <string name="service_share_menu_item">Dienst delen</string>
+    <string name="trust_list_menu_item">Vertrouwde lijst beheren</string>
+    <string name="crossmount_preference_found_devices">Beschikbare apparaten</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> kan na verbinding diensten gebruiken van de volgende apparaten</string>
+    <string name="service_sharing_message">De volgende diensten kunnen door andere apparaten gebruikt worden als u dat toestaat.</string>
+    <string name="service_category_desc">Diensten op uw apparaat</string>
+    <string name="service_is_mounted">Koppel <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Gebruikt door <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Hernoemen</string>
+    <string name="share_to_allow_pref">Anderen de dienst laten gebruiken.</string>
+    <string name="share_to_category_desc">Een apparaat kiezen om te delen</string>
+    <string name="mount_service_category_desc">Diensten op het apparaat</string>
+    <string name="disconnect_msg">Verbinding met huidige dienst verbreken?</string>
+    <string name="trust_list_category_desc">Apparaten vertrouwen</string>
+    <string name="trust_list_manage_message_desc">U staat de volgende apparaten toe om uw diensten te gebruiken zonder uw voorafgaande toestemming. U kunt het vertrouwen eventueel opzeggen.</string>
+    <string name="service_state_occupied">In gesprek</string>
+    <string name="service_state_available">Beschikbaar</string>
+    <string name="service_state_disable">Uitgeschakeld</string>
+    <string name="service_state_enable">Ingeschakeld</string>
+    <string name="service_state_connecting">Bezig met verbinden</string>
+    <string name="service_state_connected">Verbonden</string>
+    <string name="touch_name">CrossMount aanraken</string>
+    <string name="touch_msg">Verbonden met <xliff:g id="service_name">%1$s</xliff:g>. Raak aan in dit gebied.</string>
+    <string name="disconnect_touch_menu_item">Verbinding verbreken en afsluiten</string>
+    <string name="exit_touch_menu_item">Alleen afsluiten</string>
+    <string name="touch_exit_msg">Verbinding verbroken met <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="exit_touch_button">Afsluiten</string>
+</resources>

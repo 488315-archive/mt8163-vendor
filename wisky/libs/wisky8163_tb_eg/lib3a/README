@@ -1,0 +1,25 @@
+The share library "lib3a.so" is the platform-specific 3A algorithm implementation.
+This library is pre-built by MediaTek internally.
+
+WHAT IT DOES?
+==================
+lb3a.so: MTK 3A algorithm including AE (Auto Exposure) algorithm, AF (Auto Focus) algorithm,
+AWB (Auto White Balance) algorithm, and strobe AE/AWB algorithm
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libcutils.so
+2.  liblog.so
+3.  libstlport.so
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+3A algorithms have dedicated algorithm manager for algorithm control and state machine for 3A flow control,
+please refer to the files in 'vendor/mediatek/proprietary/platform/mt6582/hardware/mtkcam/core/featureio/pipe/aaa' folder.
+Public 3A HAL interface is defined in aaa_hal_base.h in 'vendor/mediatek/proprietary/hardware/include/mtkcam/hal' folder.
+
+All the source code of this library were written by MediaTek co..

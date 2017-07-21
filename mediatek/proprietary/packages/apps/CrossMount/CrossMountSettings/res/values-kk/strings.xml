@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Қолжетімді құрылғылар табылмады. CrossMount жүйесін қайта қосыңыз.</string>
+    <string name="progress_scanning">Іздеу</string>
+    <string name="crossmount_enable_menu_item">CrossMount жүйесін қосу</string>
+    <string name="crossmount_refresh_menu_item">Жаңарту</string>
+    <string name="rename_device_menu_item">Осы құрылғы атын өзгерту</string>
+    <string name="service_share_menu_item">Қызметті ортақ пайдалану</string>
+    <string name="trust_list_menu_item">Сенімді тізімді басқару</string>
+    <string name="crossmount_preference_found_devices">Қолжетімді құрылғылар</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> құрылғысында байланыстан кейін келесі құрылғылар қызметтерін пайдалануға болады.</string>
+    <string name="service_sharing_message">Келесі қызметтерді рұқсат болған жағдайда басқа құрылғылармен пайдалануға болады.</string>
+    <string name="service_category_desc">Құрылғы қызметтері</string>
+    <string name="service_is_mounted"><xliff:g id="service_name">%1$s</xliff:g> бекіту</string>
+    <string name="device_mounted_service"><xliff:g id="device_name">%1$s</xliff:g> құрылғысымен пайдаланылды</string>
+    <string name="bluetooth_rename_button">Атын өзгерту</string>
+    <string name="share_to_allow_pref">Басқалардың қызметті пайдалануына мүмкіндік беріңіз.</string>
+    <string name="share_to_category_desc">Ортақ құрылғыны таңдау</string>
+    <string name="mount_service_category_desc">Құрылғы қызметтері</string>
+    <string name="disconnect_msg">Ағымдағы қызметтен ажырату керек пе?</string>
+    <string name="trust_list_category_desc">Сенімді құрылғылар</string>
+    <string name="trust_list_manage_message_desc">Келесі құрылғыларда растаусыз қызметтерді пайдалануға мүмкіндік бересіз. Егер енді керек болмаса, оларға сенбеуге болады.</string>
+    <string name="service_state_occupied">Бос емес</string>
+    <string name="service_state_available">Қолжетімді</string>
+    <string name="service_state_disable">Өшірулі</string>
+    <string name="service_state_enable">Қосулы</string>
+    <string name="service_state_connecting">Қосу</string>
+    <string name="service_state_connected">Қосылды</string>
+    <string name="touch_name">CrossMount сенсоры</string>
+    <string name="touch_msg">Ағымда <xliff:g id="service_name">%1$s</xliff:g> қызметіне қосылған. Осы аймақты түртіңіз.</string>
+    <string name="disconnect_touch_menu_item">Ажырату және шығу</string>
+    <string name="exit_touch_menu_item">Тек шығу</string>
+    <string name="touch_exit_msg"><xliff:g id="service_name">%1$s</xliff:g> жүйесінен ажыратылған.</string>
+    <string name="exit_touch_button">Шығу</string>
+</resources>

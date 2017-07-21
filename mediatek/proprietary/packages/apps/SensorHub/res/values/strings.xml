@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sensor_hub_entry">SensorHub</string>
+    <string name="sensor_hub_error">SensorHub not support, exit</string>
+    <string name="register_error"><xliff:g id="name">%1$s</xliff:g> register fail!</string>
+    <string name="register_done"><xliff:g id="name">%1$s</xliff:g> register success!</string>
+    <string name="start_sensor">Start</string>
+    <string name="end_sensor">End</string>
+    <string name="running_summary">running</string>
+    <string name="space_summary"> </string>
+    <string name="gesture_wake_up">Touch Gesture-WakeUp</string>
+    <!-- Activity -->
+    <string name="activity_title">Activity</string>
+    <string name="still_info">STILL : </string>
+    <string name="test_standing_info">Test STANDING : </string>
+    <string name="test_sitting_info">Test SITTING : </string>
+    <string name="test_lying_info">Test LYING : </string>
+    <string name="on_foot_info">ON FOOT : </string>
+    <string name="walking_info">WALKING : </string>
+    <string name="running_info">RUNNING : </string>
+    <string name="climbing_info">CLIMBING : </string>
+    <string name="on_bike_info">ON BICYCLE : </string>
+    <string name="in_vehicle_info">IN VEHICLE : </string>
+    <string name="tilting_info">TILTING : </string>
+    <string name="unknown_info">UNKNOWN : </string>
+    <!-- pedometer -->
+    <string name="pedometer_title">Pedometer</string>
+    <string name="step_length_info">Step length in meter: </string>
+    <string name="step_frequency_info">Step frequency in Hz: </string>
+    <!-- <string name="total_step_info">Total step count: </string>
+    <string name="total_distance_info">"Total distance in meter: </string> -->
+    <string name="clear_step">Clear Step counter</string>
+    <string name="accumulated_step_string">累计步数:  </string>
+    <string name="total_step_string">本次总步数:  </string>
+    <string name="accumulated_distance_string">累计距离:  </string>
+    <string name="total_distance_string">本次总距离:  </string>
+    <string name="step_length">Step length : </string>
+    <string name="sensor_set_button">Set</string>
+    <string name="set_step_message">Ensure didn\'t input the step length?</string>
+    <string name="init_number_str">0.0</string>
+    <!-- in pocket -->
+    <string name="in_pocket_title">In Pocket</string>
+    <string name="in_pocket_info">In pocket confidence: </string>
+    <string name="enable_notify_sound">Enable notification sound</string>
+    <!-- smd -->
+    <string name="smd_title">Significant Motion Detection</string>
+    <string name="smd_info">Significant motion detection: </string>
+    <!-- google gestures -->
+    <string name="orginal_gesture_title">Google Gesture</string>
+    <!-- composite sensor -->
+    <string name="composite_sensor_title">Composite sensor</string>
+    <!-- PDR -->
+    <string name="pdr_title">PDR</string>
+    <string name="pdr_height_title">Height :</string>
+    <string name="pdr_weight_title">Weight :</string>
+    <string name="pdr_gender_title">Gender :</string>
+    <string name="pdr_step_len_title">Step-length :</string>
+    <string name="pdr_distance_title">Distance :</string>
+    <string name="pdr_step_title">Steps = </string>
+    <string name="pdr_step_len">Step-length = </string>
+    <string name="calc_start_title">Calculate Start</string>
+    <string name="calc_stop_title">Calculate Stop</string>
+
+    <!-- <string name="sensor_accelerometer">Accelerometer</string>
+    <string name="sensor_light">Ambient Light</string>
+    <string name="sensor_proximity">Proximity</string>
+    <string name="batch_mode_interval_text">Batch mode polling interval (10~1000 ms)</string>
+    <string name="batch_mode_timeout_text">Batch mode timeout (0~4000000 ms)</string>
+    <string name="sensor_fifo_title">FIFO full interrupt</string>
+    <string name="sensor_fifo_summary">Sensor hub buffer is full, wake up Android</string>
+    <string name="number_range_error">Please check the numbers range!</string>
+    <string name="not_support_fifo">FOFI full interrupt setting is not supported!</string>
+    <string name="enable_log">Start/End the testing log</string>
+    <string name="request_sensor">Request Trigger Sensor</string> -->
+</resources>

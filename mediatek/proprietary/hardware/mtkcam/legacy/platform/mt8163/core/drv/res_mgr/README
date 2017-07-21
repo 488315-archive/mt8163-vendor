@@ -1,0 +1,16 @@
+
+WHAT IT DOES?
+=============
+isp, nvram, res_mgr, tpipe driver files for camera
+
+
+HOW IT WAS BUILT?
+==================
+It can build the following shared library:
+libcamdrv.so
+
+
+HOW TO USE IT?
+==============
+See source code.
+

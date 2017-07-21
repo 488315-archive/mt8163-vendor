@@ -1,0 +1,21 @@
+This module creates the libvie_jni.so libary file.
+
+WHAT IT DOES?
+=============
+libvie_jni is JNI layer of voice interface extension, Java app can call native layer APIS by it
+and it will reveive the messages from native, and pass to java service.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+libuim, libutils, libbinder, libandroid_runtime, libnativehelper, libcutils 
+
+and the following libs from MediaTek:
+
+libvie
+
+HOW TO USE IT?
+==============
+
+java app call call the fuctions in this library.

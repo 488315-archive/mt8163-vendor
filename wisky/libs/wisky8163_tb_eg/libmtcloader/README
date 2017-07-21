@@ -1,0 +1,40 @@
+libmtcloader
+
+WHAT IT DOES?
+=============
+libmtcloader provides an API function to set a thermal configuration file and 
+to make it applied as current thermal policy.
+
+HOW IT WAS BUILT?
+==================
+libmtcloader is built as 32bit. It dynamic links to the following library from 
+AOSP:
+1. libcutils 
+2. libc 
+
+HOW TO USE IT?
+==============
+1. Dynamically link to libmtcloader.
+2. Use API function loadmtc() with the file path of a thermal configuration 
+   file.
+
+##############
+
+thermal_manager
+
+WHAT IT DOES?
+=============
+It uses libmtcloader to apply a thermal configuration file when system 
+initialized or when it is executed from shell.
+
+HOW IT WAS BUILT?
+==================
+thermal_manager is built as 32bit. It dynamic links to the following library from 
+AOSP:
+1. libcutils 
+2. libc 
+It requires libmtcloader from MTK.
+
+HOW TO USE IT?
+==============
+1. /system/bin/thermal_manager <file path>

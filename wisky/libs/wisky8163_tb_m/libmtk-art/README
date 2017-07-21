@@ -1,0 +1,28 @@
+This module creates the ART optimizaton library.
+
+This library is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+ART optimization is used to optimize ART AOT result.
+It is a static library, and will link to libart.so when build. 
+
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP: 
+
+liblog
+
+
+All source/dependency modules of this module are already put in 'vendor/mediatek/' folder.
+
+HOW TO USE IT?
+==============
+
+This library is transparent for framework and applicattion developers.
+They don't need to do any modification to use it.
+
+The majority of source code for this library were written by MediaTek.  Various
+open source libraries are also used and contained in this folder.

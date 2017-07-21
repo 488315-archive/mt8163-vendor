@@ -1,0 +1,21 @@
+MTK_ATF_SUPPORT=yes
+MTK_TEE_SUPPORT=yes
+TRUSTONIC_TEE_SUPPORT=no
+MTK_IN_HOUSE_TEE_SUPPORT=yes
+
+# equlivalent to if (WVDRM_L1 || DRM_PLAYREADY)
+ifneq ($(filter yes, $(MTK_WVDRM_L1_SUPPORT) $(MTK_DRM_PLAYREADY_SUPPORT)),)
+MEMSIZE := 0x01800000 # 24MB, <= MAX_TEE_SIZE (192MB)
+FBSIZE  := 0 # will be the secure pool size allocated from kernel.
+else
+MEMSIZE := 0x00400000 # 4MB, <= MAX_TEE_SIZE (192MB)
+FBSIZE  := 0x00000000 # 0MB, < MEMSIZE
+endif
+BOOTSHARE := 0x40002000
+
+MTK_TEE_DRAM_SIZE = $(MEMSIZE)
+SECURE_FUNC_STACK_NUM := 1 # number of stacks, max is 16
+SECURE_FUNC_STACK_SIZE := 2048 # stack size in bytes
+TZMEM_RELEASECM_SIZE := 0
+MACH_TYPE := 8163
+

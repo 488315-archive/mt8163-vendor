@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="group_invitation_received">%s invite you to the group</string>
+    <string name="group_participant_join">%s has joined the group</string>
+    <string name="group_participant_left">%s has left the group</string>
+    <string name="group_participant_removed">%s has removed from the group</string>
+    <string name="group_chairmen_transferred">Chairmen has transferred to %s</string>
+    <string name="group_subject_modified">Group name has changed to %s</string>
+    <string name="group_me_removed">I was removed from group by %s</string>
+    <string name="group_aborted">Group has been aborted</string>
+    <string name="group_i_quit">I Quit the conversation</string>
+    <string name="group_i_become_chairmen">I become the chairmen</string>
+    <string name="group_invite_to_group">Invite %s to Group</string>
+</resources>

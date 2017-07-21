@@ -1,0 +1,16 @@
+Mobile Management.
+
+WHAT IT DOES?
+=============
+To give smart phone user a more secure environment, the CATR
+(China Academy of Telecommunication Research of MIIT) publish
+a set of specifications (YDT 2407 and YDT 2408) and all smart
+devices in China must support it.
+
+HOW IT WAS BUILT?
+==================
+It is built along with module.
+
+HOW TO USE IT?
+==============
+Static link to service.jar.

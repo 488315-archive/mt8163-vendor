@@ -1,0 +1,13 @@
+MPlugin core mechanism.
+
+WHAT IT DOES?
+=============
+MPlugin core mechanism for apk preload, check Apk's certificate and create instance.
+
+HOW IT WAS BUILT?
+==================
+It is built along into mediatek-common.jar.
+
+HOW TO USE IT?
+==============
+MPlugin mechanism is invoked by framework's caller / app's caller.

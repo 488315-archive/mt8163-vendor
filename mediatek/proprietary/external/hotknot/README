@@ -1,0 +1,21 @@
+WHAT IT DOES?
+=============
+hotknot_native_service is a native deamon service which is used to handle all
+the operations between hotknot driver and hotknot service. It also provides
+the binder call function to communicate with hotknot service directly.
+libhotknot_dev.so is an adpater layer library for Native deamon service,
+device dependency operations will be located in this library.
+
+HOW IT WAS BUILT?
+==================
+Pre-built "hotknot_native_service" binary is provided.
+Pre-built "libhotknot_dev.so" library is provided.
+
+HOW TO USE IT?
+==============
+HotKnot native service will be launched automatically when system boot up.
+There is no any operations needed for HotKnot native service.
+Hotknot native service will call the methods in libhotknot_dev.so to 
+opetate the device dependency operations.
+
+All the source code of this module were written by MediaTek co..

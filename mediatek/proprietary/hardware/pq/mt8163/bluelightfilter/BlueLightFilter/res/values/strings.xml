@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MiraColorActivity!</string>
+    <string name="app_name">Blue Light Filter</string>
+    <string name="off">switch</string>
+    <string name="exit">Exit</string>
+</resources>

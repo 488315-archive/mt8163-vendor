@@ -1,0 +1,16 @@
+
+WHAT IT DOES?
+=============
+camera utils module.
+
+
+HOW IT WAS BUILT?
+==================
+It can build the following shared library:
+libcam.utils.so
+
+
+HOW TO USE IT?
+==============
+See source code.
+

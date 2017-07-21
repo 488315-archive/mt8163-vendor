@@ -1,0 +1,16 @@
+
+WHAT IT DOES?
+=============
+camera feature control files for camera
+
+
+HOW IT WAS BUILT?
+==================
+It can build the following shared library:
+libcam.vssimgtrans.a
+
+
+HOW TO USE IT?
+==============
+See source code.
+

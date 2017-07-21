@@ -1,0 +1,18 @@
+Library of MTK HDCP Transmitter features.
+
+
+
+WHAT IT DOES?
+=============
+library used for Miracast Souce to encrypt the protect content
+
+HOW IT WAS BUILT?
+==================
+
+
+HOW TO USE IT?
+==============
+Provide api for  Miracast Source to do content protection.
+all api interface are at (vendor/mediatek/proprietary/protect-bsp/frameworks/av/media/libstagefright/wifi-display/hdcp/tx)
+
+All the source code of this library were written by MediaTek co..

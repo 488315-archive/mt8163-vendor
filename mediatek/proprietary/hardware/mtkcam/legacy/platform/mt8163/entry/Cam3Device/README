@@ -1,0 +1,16 @@
+
+WHAT IT DOES?
+=============
+camera platform module.
+
+
+HOW IT WAS BUILT?
+==================
+It can build the following shared library:
+libcam_platform.so
+
+
+HOW TO USE IT?
+==============
+See source code.
+

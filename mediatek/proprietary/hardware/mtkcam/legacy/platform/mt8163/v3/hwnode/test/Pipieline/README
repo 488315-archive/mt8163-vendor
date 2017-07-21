@@ -1,0 +1,11 @@
+WHAT IT DOES?
+=============
+test camera hwnode for HALv3.
+
+HOW IT WAS BUILT?
+==================
+test_pipeline
+
+HOW TO USE IT?
+==============
+just execute

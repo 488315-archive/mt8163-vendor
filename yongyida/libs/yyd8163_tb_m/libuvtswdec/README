@@ -1,0 +1,18 @@
+The module creates 3G VT video decoder library
+This library is pre-built by MediaTek internally.
+
+WHAT IT DOES?
+=============
+3G VT decoder offers best decoding quality and error resilient tools for telephony transmission
+
+libuvtswdec.a contains the 3G VT decoder core
+libmp4com.a contains the common decoder core
+
+HOW IT WAS BUILT?
+==================
+These two libraries are released as static library, and should be built with VTMAL module.
+
+HOW TO USE IT?
+==============
+This library should be used with VTMAL module and cannot be used directly by an
+application developer.

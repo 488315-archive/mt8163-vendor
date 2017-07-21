@@ -1,0 +1,17 @@
+The module is a daemon service which provide sensor aiding to GNSS positioning.
+
+
+WHAT IT DOES?
+=============
+mpe is used to provide sensor aiding to GNSS positioning
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+liblog
+
+HOW TO USE IT?
+==============
+Run mpe as a daemon/service. For example, create a service in init*.rc on
+an Android platform.

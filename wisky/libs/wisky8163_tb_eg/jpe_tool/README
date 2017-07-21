@@ -1,0 +1,17 @@
+Host Library of MTK JPE feature
+
+
+WHAT IT DOES?
+=============
+It provides MTK Anti-clone security mechanism
+
+HOW IT WAS BUILT?
+==================
+All source/dependency modules of this module are already put in
+'vendor\mediatek\proprietary\protect\frameworks\base\jpe\tool' folder.
+
+HOW TO USE IT?
+==============
+It is proprietary used by build system and not opened interface to other modules.
+
+All the source code of this library were written by MediaTek co..

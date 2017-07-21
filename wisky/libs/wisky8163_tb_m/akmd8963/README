@@ -1,0 +1,19 @@
+akmd09911 daemon
+
+WHAT IT DOES?
+=============
+akmd09911 daemon
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+libc libm libutils libcutils
+
+and the following libs from MediaTek:
+1. N/A
+
+HOW TO USE IT?
+==============
+Start akmd09911 service
+
+All the source code of this library were written by InvenSense co..

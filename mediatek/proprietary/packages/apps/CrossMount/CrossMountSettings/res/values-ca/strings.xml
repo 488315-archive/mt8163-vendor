@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">"No s'han trobat dispositius disponibles. Encén el CrossMount per tornar-ho a provar."</string>
+    <string name="progress_scanning">"S'està cercant"</string>
+    <string name="crossmount_enable_menu_item">Activa el CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Actualitza</string>
+    <string name="rename_device_menu_item">Canvia el nom d’aquest dispositiu</string>
+    <string name="service_share_menu_item">Ús compartit del servei</string>
+    <string name="trust_list_menu_item">Gestiona llista de confiança</string>
+    <string name="crossmount_preference_found_devices">Dispositius disponibles</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="DEVICE_NAME">%1$s</xliff:g> pot utilitzar serveis dels dispositius següents després de la connexió.</string>
+    <string name="service_sharing_message">Altres dispositius podran fer servir els serveis següents, si ho permets.</string>
+    <string name="service_category_desc">Serveis del teu dispositiu</string>
+    <string name="service_is_mounted">Instal·la <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Utilitzat per <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Canvia el nom</string>
+    <string name="share_to_allow_pref">Permet utilitzar el servei a altres persones.</string>
+    <string name="share_to_category_desc">Selecciona un dispositiu per compartir</string>
+    <string name="mount_service_category_desc">Serveis del dispositiu</string>
+    <string name="disconnect_msg">Vols desconnectar el servei actual?</string>
+    <string name="trust_list_category_desc">Dispositius de confiança</string>
+    <string name="trust_list_manage_message_desc">Permets que els dispositius següents utilitzin els teus serveis sense confirmació prèvia. Pots cancel·lar-ho en qualsevol moment.</string>
+    <string name="service_state_occupied">Ocupat</string>
+    <string name="service_state_available">Disponible</string>
+    <string name="service_state_disable">Desactivat</string>
+    <string name="service_state_enable">Activat</string>
+    <string name="service_state_connecting">S’està connectant</string>
+    <string name="service_state_connected">Connectat</string>
+    <string name="touch_name">CrossMount tàctil</string>
+    <string name="touch_msg">Actualment connectat a <xliff:g id="service_name">%1$s</xliff:g>. Toca en aquesta àrea.</string>
+    <string name="disconnect_touch_menu_item">Desconnecta i surt</string>
+    <string name="exit_touch_menu_item">Només surt</string>
+    <string name="touch_exit_msg">Desconnectat de <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Surt</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/operator_container"
+    android:visibility="gone"
+     >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        >
+        
+        <com.mediatek.camera.v2.ui.RotateImageView 
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/disconnect_bn"
+            android:scaleType="centerInside"
+            android:background="@drawable/ic_crossmount_circle_bg_red"
+            android:visibility="gone"
+            android:src="@drawable/ic_crossmount_cancel_scan"
+            />
+        <com.mediatek.camera.v2.ui.RotateImageView 
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/scan_bn"
+            android:scaleType="centerInside"
+            android:background="@drawable/ic_crossmount_circle_bg"
+            android:visibility="gone"
+            android:src="@drawable/ic_crossmount_add_camera"
+            />
+        <com.mediatek.camera.v2.ui.RotateImageView 
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/multi_preivew_bn"
+            android:scaleType="centerInside"
+            android:background="@drawable/ic_crossmount_circle_bg"
+            android:visibility="gone"
+            android:src="@drawable/ic_mode_crossmount_normal"
+            />
+    </LinearLayout>
+</RelativeLayout>

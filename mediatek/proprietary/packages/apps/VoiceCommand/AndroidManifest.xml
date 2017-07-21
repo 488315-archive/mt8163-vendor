@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.voicecommand"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_MTK_MMHW" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.MANAGE_VOICE_KEYPHRASES" />
+
+    <application
+        android:name=".service.VoiceCommandApp"
+        android:icon="@mipmap/ic_launcher_settings"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Material.Settings"
+        android:persistent="true"
+        android:supportsRtl="true"
+        android:allowClearUserData="false"
+        android:permission="android.permission.MANAGE_VOICE_KEYPHRASES">
+        <activity
+            android:name=".ui.settings.VoiceUiSettingsActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:taskAffinity="com.android.settings"
+            android:label="@string/voice_ui_title" >
+            <intent-filter>
+                <action android:name="com.mediatek.voicecommand.VOICE_CONTROL_SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.settings.VoiceWakeupInteractionActivity" >
+            <intent-filter>
+                <action android:name="com.android.intent.action.MANAGE_VOICE_KEYPHRASES" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.settings.VoiceUiAvailableLanguageActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:taskAffinity="com.android.settings"
+            android:parentActivityName=".ui.settings.VoiceUiSettingsActivity"
+            android:label="@string/voice_ui_language_title" >
+            <intent-filter>
+                <action android:name="com.mediatek.voicecommand.VOICE_CONTROL_LANGUAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.settings.VoiceUiCommandPlayActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:taskAffinity="com.android.settings"
+            android:parentActivityName=".ui.settings.VoiceUiSettingsActivity"
+            android:label="@string/voice_ui_language_title" >
+            <intent-filter>
+                <action android:name="com.mediatek.voicecommand.VOICE_UI_COMMAND_PLAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name=".ui.unlock.PswPreviewActivity" 
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:taskAffinity=""
+            android:hardwareAccelerated="false"
+            android:excludeFromRecents="true" android:exported="false" 
+            android:configChanges="orientation|screenSize" >
+            <intent-filter>
+                <action android:name="com.mediatek.voicecommand.VOICE_UNLOCK_PSWPREVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name=".service.VoiceCommandManagerService" >
+            <intent-filter>
+                <action android:name="com.mediatek.voicecommand" />
+
+                <category android:name="com.mediatek.nativeservice" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.VoiceWakeupInteractionService"
+                 android:label="@string/voice_wakeup_title"
+                 android:permission="android.permission.BIND_VOICE_INTERACTION" >
+            <meta-data android:name="android.voice_interaction"
+                       android:resource="@xml/voice_wakeup_interaction_service" />
+            <intent-filter>
+                <action android:name="android.service.voice.VoiceInteractionService" />
+                <action android:name="com.mediatek.voicecommand.VoiceInteractionService" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.VoiceWakeupInteractionSessionService"
+                 android:permission="android.permission.BIND_VOICE_INTERACTION" >
+        </service>
+        <service android:name=".service.VoiceWakeupRecognitionService"
+                android:label="@string/voice_wakeup_title">
+            <intent-filter>
+                <action android:name="android.speech.RecognitionService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.speech" 
+                       android:resource="@xml/voice_wakeup_recognition_service" />
+        </service>
+        <meta-data
+            android:name="android.voice_enrollment"
+            android:resource="@xml/voice_traning_enrollment_application"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Ko tìm thấy các thiết bị khả dụng. Bật CrossMount để thử lại.</string>
+    <string name="progress_scanning">Đang dò tìm</string>
+    <string name="crossmount_enable_menu_item">Bật CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Nạp lại</string>
+    <string name="rename_device_menu_item">Đổi tên thiết bị này</string>
+    <string name="service_share_menu_item">Chia sẻ dịch vụ</string>
+    <string name="trust_list_menu_item">Quản lý DS xác thực</string>
+    <string name="crossmount_preference_found_devices">Thiết bị khả dụng</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> có thể dùng các dịch vụ từ những thiết bị sau đây sau khi kết nối.</string>
+    <string name="service_sharing_message">Các dịch vụ sau có thể được dùng bởi những thiết bị khác nếu bạn cho phép.</string>
+    <string name="service_category_desc">Dịch vụ từ thiết bị của bạn</string>
+    <string name="service_is_mounted">Thiết lập <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Được dùng bởi <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Đổi tên</string>
+    <string name="share_to_allow_pref">Cho phép người khác dùng dịch vụ.</string>
+    <string name="share_to_category_desc">Chọn thiết bị để chia sẻ</string>
+    <string name="mount_service_category_desc">Dịch vụ từ thiết bị</string>
+    <string name="disconnect_msg">Ngắt kết nối dịch vụ hiện hành?</string>
+    <string name="trust_list_category_desc">Tin các thiết bị</string>
+    <string name="trust_list_manage_message_desc">Bạn cho phép những thiết bị sau dùng các dịch vụ mà không cần bạn xác nhận trước. Bạn có thể không tin chúng nếu không muốn dùng nữa.</string>
+    <string name="service_state_occupied">Đã dùng</string>
+    <string name="service_state_available">Khả dụng</string>
+    <string name="service_state_disable">Đã tắt</string>
+    <string name="service_state_enable">Đã bật</string>
+    <string name="service_state_connecting">Đang kết nối</string>
+    <string name="service_state_connected">Đã kết nối</string>
+    <string name="touch_name">Chạm CrossMount</string>
+    <string name="touch_msg">Hiện đã kết nối với <xliff:g id="service_name">%1$s</xliff:g>. Hãy chạm vào vùng này.</string>
+    <string name="disconnect_touch_menu_item">Ngắt kết nối và thoát</string>
+    <string name="exit_touch_menu_item">Chỉ thoát</string>
+    <string name="touch_exit_msg">Đã ngắt kết nối từ <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Thoát</string>
+</resources>

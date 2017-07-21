@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Najdena ni bila nobena razpoložljiva naprava. Vklopite CrossMount in poskusite znova.</string>
+    <string name="progress_scanning">Iskanje</string>
+    <string name="crossmount_enable_menu_item">Omogoči CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Osveži</string>
+    <string name="rename_device_menu_item">Preimenuj to napravo</string>
+    <string name="service_share_menu_item">Storitev v skupni rabi</string>
+    <string name="trust_list_menu_item">Upravljanje seznama zaupanja</string>
+    <string name="crossmount_preference_found_devices">Naprave, ki so na voljo</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> lahko po vzpostavitvi povezave uporablja storitve naslednjih naprav.</string>
+    <string name="service_sharing_message">Druge naprave lahko uporabljajo naslednje storitve, če jim to dovolite.</string>
+    <string name="service_category_desc">Storitve vaše naprave</string>
+    <string name="service_is_mounted">Mount <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Uporabnik <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Preimenuj</string>
+    <string name="share_to_allow_pref">Dovoli drugim napravam, da uporabljajo storitev.</string>
+    <string name="share_to_category_desc">Izberite napravo za skupno rabo</string>
+    <string name="mount_service_category_desc">Storitve naprave</string>
+    <string name="disconnect_msg">Želite prekiniti trenutno storitev?</string>
+    <string name="trust_list_category_desc">Zaupaj napravam</string>
+    <string name="trust_list_manage_message_desc">Naslednjim napravam dovoljujete, da vaše storitve uporabljajo brez predhodne potrditve. zaupanje lahko prekinete, če tega ne želite več.</string>
+    <string name="service_state_occupied">Zasedeno</string>
+    <string name="service_state_available">Na voljo</string>
+    <string name="service_state_disable">Onemogočeno</string>
+    <string name="service_state_enable">Omogočeno</string>
+    <string name="service_state_connecting">Povezovanje</string>
+    <string name="service_state_connected">Povezano</string>
+    <string name="touch_name">Dotik CrossMount</string>
+    <string name="touch_msg">Trenutno povezano s/z <xliff:g id="service_name">%1$s</xliff:g>. Dotaknite se na tem območju.</string>
+    <string name="disconnect_touch_menu_item">Prekini povezano in zapusti</string>
+    <string name="exit_touch_menu_item">Samo izhod</string>
+    <string name="touch_exit_msg">Povezava s/z <xliff:g id="service_name">%1$s</xliff:g> prekinjena.</string>
+    <string name="exit_touch_button">Izhod</string>
+</resources>

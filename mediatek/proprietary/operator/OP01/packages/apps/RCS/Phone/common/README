@@ -1,0 +1,14 @@
+WHAT IT DOES?
+=============
+It is used for CallStatusService about RCS feature.
+Message will include the aidl file and bind CallStatusService.
+
+HOW IT WAS BUILT?
+==================
+Only and awalys built in OP01 rcs project.
+
+HOW TO USE IT?
+==============
+It is used for RCS Message to bind CallStatusService. And the
+service will give call info to message app. And in status bar
+of RCS message will show these infomation.

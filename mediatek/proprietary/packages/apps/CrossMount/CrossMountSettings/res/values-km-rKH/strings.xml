@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">រក​មិន​ឃើញ​មាន​ឧបករណ៍​ដែល​អាច​រក​បាន។ បើក CrossMount ដើម្បី​ព្យាយាម​ម្ដង​ទៀត។</string>
+    <string name="progress_scanning">កំពុង​ស្វែងរក</string>
+    <string name="crossmount_enable_menu_item">បើក CrossMount</string>
+    <string name="crossmount_refresh_menu_item">រីហ្វ្រែស (ផ្ទុកឡើងវិញ)</string>
+    <string name="rename_device_menu_item">ប្ដូរ​ឈ្មោះ​ឧបករណ៍​នេះ</string>
+    <string name="service_share_menu_item">ការចែករំលែក​សេវាកម្ម</string>
+    <string name="trust_list_menu_item">រៀបចំ​គ្រប់គ្រង​បញ្ជីឈ្មោះ​ដែលជឿទុក​បាន</string>
+    <string name="crossmount_preference_found_devices">ឧបករណ៍​ដែល​អាច​រក​បាន</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> អាច​ប្រើ​សេវាក​នៃ​ឧបករណ៍​ខាង​ក្រោម ក្រោយ​មាន​ការភ្ជាប់​ហើយ។</string>
+    <string name="service_sharing_message">ឧបករណ៍​ផ្សេងៗ​ទៀត​អាច​មាន​ការប្រើ​សេវាកម្ម​ដូច​ខាង​ក្រោម បើ​អ្នក​បើក​វា។</string>
+    <string name="service_category_desc">សេវាកម្ម​នៃ​ឧបករណ៍​របស់អ្នក</string>
+    <string name="service_is_mounted">ដាក់ <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">មាន​ការប្រើ​ដោយ <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">ប្ដូរ​ឈ្មោះ</string>
+    <string name="share_to_allow_pref">បើ​ឲ្យ​ឧបករណ៍​ផ្សេងៗ​ទៀត​ប្រើ​សេវាកម្ម​នេះ។</string>
+    <string name="share_to_category_desc">ជ្រើសយក​ឧបករណ៍​ដើម្បី​ចែករំលែក</string>
+    <string name="mount_service_category_desc">សេវាកម្ម​នានា​នៃ​ឧបករណ៍​នេះ</string>
+    <string name="disconnect_msg">ផ្ដាច់​សេវាកម្ម​ដែល​កំពុង​មាន?</string>
+    <string name="trust_list_category_desc">ឧបករណ៍​ជឿទុកចិត្តបាន</string>
+    <string name="trust_list_manage_message_desc">អ្នកអនុញ្ញាត​ឲ្យ​ឧបករណ៍​ដូច​ខាង​ក្រោម​ប្រើ​សេវាកម្ម​អ្នក​ដោយ​មិន​ចាំបាច់​មាន​ការបញ្ជាក់​ជា​មុន។ អ្នក​នឹង​មិន​ជឿទុកចិត្ត​លើ​ឧបករណ៍​ទាំង​នេះ​បាន បើ​អ្នក​មិន​ចង់ឲ្យ​មាន​ឧបករណ៍​ណា​មួយ​ប្រើ​ត​ទៅ​ទៀត។</string>
+    <string name="service_state_occupied">បាន​កាន់កាប់</string>
+    <string name="service_state_available">អាចរកបាន</string>
+    <string name="service_state_disable">បាន​បិទ</string>
+    <string name="service_state_enable">បាន​បើក</string>
+    <string name="service_state_connecting">កំពុង​ភ្ជាប់</string>
+    <string name="service_state_connected">បាន​ភ្ជាប់</string>
+    <string name="touch_name">ការចុច CrossMount</string>
+    <string name="touch_msg">ឥឡូវនេះ​កំពុង​មាន​ការភ្ជាប់​ទៅ​នឹង <xliff:g id="service_name">%1$s</xliff:g>។  សូម​ចុច​នៅ​ផ្នែក​នេះ។</string>
+    <string name="disconnect_touch_menu_item">ផ្ដាច់ ហើយ​ចាកចេញ</string>
+    <string name="exit_touch_menu_item">គ្រាន់​តែ​ចេញ</string>
+    <string name="touch_exit_msg">មានការផ្ដាច់​ចេញ​ពី <xliff:g id="service_name">%1$s</xliff:g>។</string>
+    <string name="exit_touch_button">ចាកចេញ</string>
+</resources>

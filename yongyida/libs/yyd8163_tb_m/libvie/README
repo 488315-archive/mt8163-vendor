@@ -1,0 +1,21 @@
+This module creates the libvie.so libary file.
+
+WHAT IT DOES?
+=============
+libvie is the main native library in VIE feature. it controls libaudiostream library to record pcm.
+it calls swip to recognize the different command and return the result to java service.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+    libcutils, libutils, libstlport, libgui, libdl, libsqlite
+
+and the following libs from MediaTek:
+
+    libstagefright, libmedia, libaudiostream, libvieswip, libdrvb, libmtk_drvb
+
+HOW TO USE IT?
+==============
+
+user can call the fuctions in this library by JNI layer.

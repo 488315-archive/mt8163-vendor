@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Hiç kullanılabilir aygıt bulunamadı. Tekrar denemek için CrossMount işlevini açın.</string>
+    <string name="progress_scanning">Aranıyor</string>
+    <string name="crossmount_enable_menu_item">CrossMount işlevini etkinleştir</string>
+    <string name="crossmount_refresh_menu_item">Yenile</string>
+    <string name="rename_device_menu_item">Bu aygıtı yeniden adlandır</string>
+    <string name="service_share_menu_item">Hizmet paylaşımı</string>
+    <string name="trust_list_menu_item">Güven listesini yönet</string>
+    <string name="crossmount_preference_found_devices">Kullanılabilir aygıtlar</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g>, bağlantıdan sonra aşağıdaki aygıtların hizmetlerini kullanabilir.</string>
+    <string name="service_sharing_message">İzin verirseniz, aşağıdaki hizmetler diğer aygıtlar tarafından kullanılabilir.</string>
+    <string name="service_category_desc">Aygıtınızın hizmetleri</string>
+    <string name="service_is_mounted"><xliff:g id="service_name">%1$s</xliff:g> bağlı</string>
+    <string name="device_mounted_service"><xliff:g id="device_name">%1$s</xliff:g> tarafından kullanılıyor</string>
+    <string name="bluetooth_rename_button">Yeniden adlandır</string>
+    <string name="share_to_allow_pref">Başkalarının hizmeti kullanmasına izin ver</string>
+    <string name="share_to_category_desc">Paylaşılacak bir aygıt seç</string>
+    <string name="mount_service_category_desc">Aygıtın hizmetleri</string>
+    <string name="disconnect_msg">Geçerli hizmetin bağlantısı kesilsin mi?</string>
+    <string name="trust_list_category_desc">Güvenli aygıtlar</string>
+    <string name="trust_list_manage_message_desc">Aşağıdaki aygıtların, önceden onayınız olmadan hizmetlerinizi kullanmasına izin veriyorsunuz. Daha fazla izin vermek istemezseniz bunları güvenli durumdan çıkarabilirsiniz.</string>
+    <string name="service_state_occupied">Meşgul</string>
+    <string name="service_state_available">Kullanılabilir</string>
+    <string name="service_state_disable">Devre dışı</string>
+    <string name="service_state_enable">Etkin</string>
+    <string name="service_state_connecting">Bağlanıyor</string>
+    <string name="service_state_connected">Bağlandı</string>
+    <string name="touch_name">CrossMount dokunuş</string>
+    <string name="touch_msg">Şu an <xliff:g id="service_name">%1$s</xliff:g> hizmetine bağlı. Lütfen bu alana dokunun.</string>
+    <string name="disconnect_touch_menu_item">Bağlantıyı kes ve çık</string>
+    <string name="exit_touch_menu_item">Yalnızca çık</string>
+    <string name="touch_exit_msg"><xliff:g id="service_name">%1$s</xliff:g> bağlantısı kesildi.</string>
+    <string name="exit_touch_button">Çık</string>
+</resources>

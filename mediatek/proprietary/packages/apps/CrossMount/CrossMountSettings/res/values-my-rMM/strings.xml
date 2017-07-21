@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">ရနိုင်သော ကိရိယာမတွေ့ပါ။ ထပ်ကြိုးစားရန် CrossMount ကို ဖွင့်ပါ။</string>
+    <string name="progress_scanning">ရှာနေသည်</string>
+    <string name="crossmount_enable_menu_item">CrossMount ဖွင့်ပါ</string>
+    <string name="crossmount_refresh_menu_item">ရီဖရက်ရှ်</string>
+    <string name="rename_device_menu_item">ဤကိရိယာကို အမည်ပြောင်းပါ</string>
+    <string name="service_share_menu_item">ဝန်ဆောင်မှု မျှဝေခြင်း</string>
+    <string name="trust_list_menu_item">ယုံကြည်သောစာရင်းကို စီမံပါ</string>
+    <string name="crossmount_preference_found_devices">ရနိုင်သော ကိရိယာများ</string>
+    <string name="crossmount_is_visible_message">ချိတ်ဆက်ပြီးပါက အောက်ပါကိရိယာများမှ <xliff:g id="device_name">%1$s</xliff:g> သည် ဝန်ဆောင်မှုများကို သုံးနိုင်သည်။</string>
+    <string name="service_sharing_message">သင်ခွင့်ပြုပါက အောက်ပါဝန်ဆောင်မှုများကို အခြားကိရိယာများမှ သုံးနိုင်သည်။</string>
+    <string name="service_category_desc">သင့်ကိရိယာ၏ ဝန်ဆောင်မှုများ</string>
+    <string name="service_is_mounted"><xliff:g id="service_name">%1$s</xliff:g> တပ်ဆင်ပါ</string>
+    <string name="device_mounted_service"><xliff:g id="device_name">%1$s</xliff:g> မှ သုံးထားသည်</string>
+    <string name="bluetooth_rename_button">အမည်ပြောင်းပါ</string>
+    <string name="share_to_allow_pref">ဤဝန်ဆောင်မှုများကို သုံးရန် အခြားကိရိယာများကို ခွင့်ပြုပါ</string>
+    <string name="share_to_category_desc">မျှဝေရန် ကိရိယာတစ်ခု ရွေးချယ်ပါ</string>
+    <string name="mount_service_category_desc">ကိရိယာ၏ ဝန်ဆောင်မှုများ</string>
+    <string name="disconnect_msg">လက်ရှိဝန်ဆောင်မှုများကို ချိတ်ဆက်မှု ဖြုတ်မလား။</string>
+    <string name="trust_list_category_desc">ယုံကြည်ရသော ကိရိယာများ</string>
+    <string name="trust_list_manage_message_desc">သင့်၏ အတည်ပြုချက်မရှိဘဲ အသုံးပြုရန် အောက်ပါကိရိယာများကို ယခင်က ခွင့်ပြုထားသည်။ သင်ဆက်လက်၍ အလိုမရှိပါက ၎င်းတို့ကို မယုံကြည်မှုစာရင်းတွင် ထည့်နိုင်သည်။</string>
+    <string name="service_state_occupied">နေရာယူထားသည်</string>
+    <string name="service_state_available">ရနိုင်သည်</string>
+    <string name="service_state_disable">ပိတ်ထားသည်</string>
+    <string name="service_state_enable">ဖွင့်ထားသည်</string>
+    <string name="service_state_connecting">ချိတ်ဆက်နေသည်</string>
+    <string name="service_state_connected">ချိတ်ဆက်ထားသည်</string>
+    <string name="touch_name">CrossMount ထိမှု</string>
+    <string name="touch_msg">လက်ရှိ <xliff:g id="service_name">%1$s</xliff:g> သို့ ချိတ်ဆက်ထားသည်။ ကျေးဇူးပြု၍ ဤဧရိယာကို ထိပါ။</string>
+    <string name="disconnect_touch_menu_item">ချိတ်ဆက်မှုဖြုတ်၍ ထွက်ပါ</string>
+    <string name="exit_touch_menu_item">ထွက်ရုံသာ</string>
+    <string name="touch_exit_msg"><xliff:g id="service_name">%1$s</xliff:g> မှ ချိတ်ဆက်မှု ဖြုတ်ပါ။</string>
+    <string name="exit_touch_button">ထွက်ပါ
+</string>
+</resources>

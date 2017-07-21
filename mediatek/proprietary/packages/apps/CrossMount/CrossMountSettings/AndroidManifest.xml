@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.crossmountsettings"
+    android:versionCode="1"
+    android:versionName="1.0">
+        <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+    
+ <uses-permission android:name="com.mediatek.crossmount.adapter.CROSSMOUNTSERVICE" />
+    <application
+        android:name=".CrossMountApplication"
+        android:icon="@drawable/ic_launcher_crossmount"
+        android:taskAffinity=""
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Material.Settings"
+        android:supportsRtl="true">
+        
+        <uses-library 
+            android:name="com.mediatek.crossmount.adapter"
+            android:required="true" />
+         
+        <!-- enter : Cross Mount main ui -->
+        <activity android:name=".ui.CrossMountMainActivity"
+                android:label="@string/app_name"
+                android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|navigation"
+                android:launchMode="singleTask"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.mediatek.crossmount.CROSSMOUNT_SETTING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+       <!-- enter : service sharing ui -->
+        <activity android:name="com.mediatek.crossmountsettings.ui.sharedto.ServiceSharingActivity"
+                android:label="@string/service_share_menu_item"
+                android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|navigation"
+                android:excludeFromRecents="true"
+                android:parentActivityName=".ui.CrossMountMainActivity">
+            <intent-filter>
+                <action android:name="com.mediatek.crossmount.SERVICE_SHARE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.mediatek.crossmountsettings.ui.sharedto.ShareToOtherActivity"
+                android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|navigation"
+                android:excludeFromRecents="true"
+                android:parentActivityName="com.mediatek.crossmountsettings.ui.sharedto.ServiceSharingActivity" >
+            <intent-filter>
+                <action android:name="com.mediatek.crossmount.SHARE_TO_OTHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ui.mountfrom.MountFromActivity"
+                android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|navigation"
+                android:excludeFromRecents="true"
+                android:parentActivityName=".ui.CrossMountMainActivity">
+            <intent-filter>
+                <action android:name="com.mediatek.crossmount.MOUNT_FROM_OTHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+      
+        <activity android:name=".ui.trustlist.TrustListActivity"
+                android:label="@string/trust_list_menu_item"
+                android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|navigation"
+                android:excludeFromRecents="true"
+                android:parentActivityName=".ui.CrossMountMainActivity">
+            <intent-filter>
+                <action android:name="com.mediatek.crossmount.TRUST_LIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ui.touch.TouchCtrlActivity"
+                android:label="@string/touch_name"
+                android:screenOrientation="landscape"
+                android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|navigation"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="com.mediatek.crossmount.TOUCH_SHARED_TO_TV"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ui.touch.TouchExitActivity"
+                android:label="@string/touch_name"
+                android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|navigation"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="com.mediatek.crossmount.TOUCH_EXIT_FROM_TV"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

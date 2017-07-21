@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Nie znaleziono dostępnych urządzeń. Włącz CrossMount, aby spróbować ponownie.</string>
+    <string name="progress_scanning">Wyszukiwanie</string>
+    <string name="crossmount_enable_menu_item">Włącz CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Odśwież</string>
+    <string name="rename_device_menu_item">Zmień nazwę tego urządzenia</string>
+    <string name="service_share_menu_item">Udostępnianie usługi</string>
+    <string name="trust_list_menu_item">Zarządzaj listą zaufanych</string>
+    <string name="crossmount_preference_found_devices">Dostępne urządzenia</string>
+    <string name="crossmount_is_visible_message">Po nawiązaniu połączenia urządzenie <xliff:g id="device_name">%1$s</xliff:g> będzie mogło korzystać z usług poniższych urządzeń.</string>
+    <string name="service_sharing_message">Po zezwoleniu poniższe usługi będą mogły być używane przez inne urządzenia.</string>
+    <string name="service_category_desc">Usługi urządzenia</string>
+    <string name="service_is_mounted">Zainstaluj <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Używane przez <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Zmień nazwę</string>
+    <string name="share_to_allow_pref">Zezwól innym na korzystanie z usługi.</string>
+    <string name="share_to_category_desc">Wybierz urządzenie do udostępnienia</string>
+    <string name="mount_service_category_desc">Usługi urządzenia</string>
+    <string name="disconnect_msg">Rozłączyć bieżącą usługę?</string>
+    <string name="trust_list_category_desc">Zaufane urządzenia</string>
+    <string name="trust_list_manage_message_desc">Zezwalasz poniższym urządzeniom na korzystanie z usług bez Twojego wcześniejszego potwierdzenia. Możesz w dowolnej chwili usunąć te urządzenia z listy zaufanych.</string>
+    <string name="service_state_occupied">Zajęta</string>
+    <string name="service_state_available">Dostępna</string>
+    <string name="service_state_disable">Wyłączona</string>
+    <string name="service_state_enable">Włączona</string>
+    <string name="service_state_connecting">Łączenie</string>
+    <string name="service_state_connected">Połączona</string>
+    <string name="touch_name">CrossMount dotykowy</string>
+    <string name="touch_msg">Obecnie połączono z <xliff:g id="service_name">%1$s</xliff:g>. Dotknij w tym obszarze.</string>
+    <string name="disconnect_touch_menu_item">Rozłącz i zakończ</string>
+    <string name="exit_touch_menu_item">Tylko zakończ</string>
+    <string name="touch_exit_msg">Rozłączono z <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Zakończ</string>
+</resources>

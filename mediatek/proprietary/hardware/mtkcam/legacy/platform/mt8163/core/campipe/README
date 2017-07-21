@@ -1,0 +1,16 @@
+
+WHAT IT DOES?
+=============
+camera data pipe files for pass1/pass2
+
+
+HOW IT WAS BUILT?
+==================
+It can build the following shared library:
+libcam.campipe.so
+
+
+HOW TO USE IT?
+==============
+Use the api for getting camera pass1/pass2 data.
+

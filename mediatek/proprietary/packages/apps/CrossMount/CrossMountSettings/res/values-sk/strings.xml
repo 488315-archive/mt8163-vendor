@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Nenašli sa žiadne dostupné zariadenia. Ak chcete skúsiť znovu, zapnite CrossMount.</string>
+    <string name="progress_scanning">Vyhľadávanie</string>
+    <string name="crossmount_enable_menu_item">Zapnúť CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Obnoviť</string>
+    <string name="rename_device_menu_item">Premenovať toto zariadenie</string>
+    <string name="service_share_menu_item">Zdieľanie služby</string>
+    <string name="trust_list_menu_item">Spravovať zoznam dôveryhodných zariadení</string>
+    <string name="crossmount_preference_found_devices">Dostupné zariadenia</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> môže po pripojení používať služby nasledujúcich zariadení.</string>
+    <string name="service_sharing_message">Nasledujúce služby môžu používať iné zariadenia, ak to povolíte.</string>
+    <string name="service_category_desc">Služby vášho zariadenia</string>
+    <string name="service_is_mounted">Pripojiť <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Používa <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Premenovať</string>
+    <string name="share_to_allow_pref">Povoliť iným používať túto službu.</string>
+    <string name="share_to_category_desc">Vybrať zariadenie na zdieľanie</string>
+    <string name="mount_service_category_desc">Služby vášho zariadenia</string>
+    <string name="disconnect_msg">Odpojiť aktuálnu službu ?</string>
+    <string name="trust_list_category_desc">Dôveryhodné zariadenia</string>
+    <string name="trust_list_manage_message_desc">Nasledujúcim zariadeniam ste už predtým povolili používať vaše služby bez potvrdenia. Ak im už nechcete dôverovať, môžete ich označiť ako nedôveryhodné.</string>
+    <string name="service_state_occupied">Obsadené</string>
+    <string name="service_state_available">Dostupné</string>
+    <string name="service_state_disable">Vypnuté</string>
+    <string name="service_state_enable">Odblokované</string>
+    <string name="service_state_connecting">Pripája sa</string>
+    <string name="service_state_connected">Pripojené</string>
+    <string name="touch_name">Dotykové ovládanie CrossMount</string>
+    <string name="touch_msg">Aktuálne pripojené k <xliff:g id="service_name">%1$s</xliff:g>. Dotknite sa tejto oblasti.</string>
+    <string name="disconnect_touch_menu_item">Odpojiť a ukončiť</string>
+    <string name="exit_touch_menu_item">Iba ukončiť</string>
+    <string name="touch_exit_msg">Odpojené od <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Ukončiť</string>
+</resources>

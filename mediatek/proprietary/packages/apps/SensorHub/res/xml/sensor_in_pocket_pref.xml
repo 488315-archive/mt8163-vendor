@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/in_pocket_title">
+    <SwitchPreference
+                android:key="enable_notify_inpocket"
+                android:title="@string/enable_notify_sound"
+                android:persistent="false"/>
+
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+library of Drm features, including widevine crypto plugin api.
+
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+libwvdecryptcommon_L$ is used by crypto plugin, it contains method to call oem api.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+and the following libs from MediaTek:
+
+All source/dependency modules of this module are already put in
+'system/lib' folder.
+
+HOW TO USE IT?
+==============
+libwvdecryptcommon_L$ is used by crypto plugin, it calls oem api to decrypt.

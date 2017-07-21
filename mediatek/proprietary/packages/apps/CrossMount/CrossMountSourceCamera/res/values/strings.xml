@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>
+    <string name="app_name">CrossMountSourceCamera</string>
+    <string name="multicamera_disconnect_dialog_title">CrossMount<font size="6"><sup>TM</sup></font></string>
+    <string name="multicamera_disconnect_dialog_positive">DISCONNECT</string>
+    <string name="multicamera_disconnect_dialog_negative">CANCEL</string>
+    <string name="multicamera_disconnect_hint">Your Camera will diconnect from %1$s</string>
+
+</resources>

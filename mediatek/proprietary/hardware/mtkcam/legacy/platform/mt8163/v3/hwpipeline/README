@@ -1,0 +1,11 @@
+WHAT IT DOES?
+=============
+camera hw pipeline for HALv3.
+
+HOW IT WAS BUILT?
+==================
+libcam3_hwpipeline.so
+
+HOW TO USE IT?
+==============
+Reference to use dynamic libraries.

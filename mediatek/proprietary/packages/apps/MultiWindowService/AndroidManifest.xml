@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.multiwindow.service"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application android:name=".MultiWindowApplication"
+        android:allowBackup="true"
+        android:persistent="true" >
+
+        <service  android:name=".MultiWindowService"
+        	  android:process="system"
+            android:exported="true" />
+
+        <service  android:name=".BlackListService"
+            android:exported="true" />
+    </application>
+</manifest>

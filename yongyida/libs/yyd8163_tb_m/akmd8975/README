@@ -1,0 +1,22 @@
+This file is a daemon deal and correct sensor data for driver.
+
+WHAT IT DOES?
+=============
+It is the daemon that are a few threads, and each thread is independent on 
+each other, each of them is working like follows:
+If it's activated, it will read raw sensor values from device driver, and 
+then process the raw values if needed, and deliver the processed data to HAL 
+via the data channel, if command is received to deactivate this sensor data 
+transfer, the thread will go to sleep state and stops to deliver data to data 
+channel.
+
+
+HOW IT WAS BUILT?
+==================
+> ./mk $(PROJECT_NAME) mm
+
+
+HOW TO USE IT?
+==============
+Add the section in mediatek/config/$(PROJECT_NAME)/init.project.rc.
+

@@ -1,0 +1,22 @@
+The binary file 'slpd' is a MTK SUPL Location Provider Software.
+This binary file is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+'slpd' is the implementation including SUPL stack,
+RRLP stack, LPP stack to provide the SUPL Location to Mediatek's
+modules
+
+HOW IT WAS BUILT?
+==================
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs'.
+
+HOW TO USE IT?
+==============
+The binary file 'slpd' is a native daemon which will be
+launched when system is booting up.
+
+Source
+==============
+All the source code of this binary file were written by MediaTek co..

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding = "5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_gravity="center"
+    android:background="#D8D8D8"
+    android:gravity="center">
+    <TextView android:id="@+id/systen_event_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#222222"
+            android:text="@string/contact_name"
+            android:visibility="visible"/>
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/group_button">
+        <Button android:id="@+id/btn_group_reject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/group_reject"/>
+        <Button android:id="@+id/btn_group_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#0000FF"
+            android:text="@string/group_accept"/>
+    </LinearLayout>
+</LinearLayout>

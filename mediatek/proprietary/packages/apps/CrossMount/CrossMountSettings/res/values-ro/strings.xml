@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Nu s-au găsit dispozitive disponibile. Porniţi CrossMount pentru a încerca din nou.</string>
+    <string name="progress_scanning">Se caută</string>
+    <string name="crossmount_enable_menu_item">Activare CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Reîmprospătare</string>
+    <string name="rename_device_menu_item">Redenumiţi acest dispozitiv</string>
+    <string name="service_share_menu_item">Partajare servicii</string>
+    <string name="trust_list_menu_item">Gestionare listă de încredere</string>
+    <string name="crossmount_preference_found_devices">Dispozitive disponibile</string>
+    <string name="crossmount_is_visible_message">După conectare, <xliff:g id="device_name">%1$s</xliff:g> va putea utiliza serviciile următoarelor dispozitive.</string>
+    <string name="service_sharing_message">Următoarele servicii pot fi utilizate de către alte dispozitive, dacă permiteţi acest lucru.</string>
+    <string name="service_category_desc">Serviciile dispozitivului dvs.</string>
+    <string name="service_is_mounted">Montare <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Utilizat de către <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Redenumire</string>
+    <string name="share_to_allow_pref">Permiteţi altor persoane să utilizeze acest serviciu.</string>
+    <string name="share_to_category_desc">Alegeţi un dispozitiv de partajat</string>
+    <string name="mount_service_category_desc">Serviciile dispozitivului</string>
+    <string name="disconnect_msg">Deconectaţi serviciul curent?</string>
+    <string name="trust_list_category_desc">Dispozitive de încredere</string>
+    <string name="trust_list_manage_message_desc">Permiteţi următoarelor dispozitive să utilizeze serviciile dvs. fără confirmarea dvs. prealabilă. Puteţi elimina dispozitivele din lista de încredere dacă nu mai doriţi acest lucru.</string>
+    <string name="service_state_occupied">Ocupat</string>
+    <string name="service_state_available">Disponibil</string>
+    <string name="service_state_disable">Dezactivat</string>
+    <string name="service_state_enable">Activat</string>
+    <string name="service_state_connecting">Se conectează</string>
+    <string name="service_state_connected">Conectat</string>
+    <string name="touch_name">Sistem CrossMount tactil</string>
+    <string name="touch_msg">În acest moment sunteţi conectat la <xliff:g id="service_name">%1$s</xliff:g>. Atingeţi în această zonă.</string>
+    <string name="disconnect_touch_menu_item">Deconectare şi ieşire</string>
+    <string name="exit_touch_menu_item">Doar ieşire</string>
+    <string name="touch_exit_msg">V-aţi deconectat de la <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Ieşire</string>
+</resources>

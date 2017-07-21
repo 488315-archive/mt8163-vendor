@@ -1,0 +1,11 @@
+WHAT IT DOES?
+=============
+Used to decide package arch according to libs within assets
+
+HOW IT WAS BUILT?
+==================
+This module is built to a static java library arch_helper, whichi is linked to service.core
+
+HOW TO USE IT?
+==============
+ - Init an instance of ArchHelper and pass an apk file to it. Then call getSupportedAbi to get the APK abi

@@ -1,0 +1,149 @@
+/*======================================================================*
+ DTS, Inc.
+ 5220 Las Virgenes Road
+ Calabasas, CA 91302  USA
+
+ CONFIDENTIAL: CONTAINS CONFIDENTIAL PROPRIETARY INFORMATION OWNED BY
+ DTS, INC. AND/OR ITS AFFILIATES ("DTS"), INCLUDING BUT NOT LIMITED TO
+ TRADE SECRETS, KNOW-HOW, TECHNICAL AND BUSINESS INFORMATION. USE,
+ DISCLOSURE OR DISTRIBUTION OF THE SOFTWARE IN ANY FORM IS LIMITED TO
+ SPECIFICALLY AUTHORIZED LICENSEES OF DTS.  ANY UNAUTHORIZED
+ DISCLOSURE IS A VIOLATION OF STATE, FEDERAL, AND INTERNATIONAL LAWS.
+ BOTH CIVIL AND CRIMINAL PENALTIES APPLY.
+
+ DO NOT DUPLICATE. COPYRIGHT 2014, DTS, INC. ALL RIGHTS RESERVED.
+ UNAUTHORIZED DUPLICATION IS A VIOLATION OF STATE, FEDERAL AND
+ INTERNATIONAL LAWS.
+
+ ALGORITHMS, DATA STRUCTURES AND METHODS CONTAINED IN THIS SOFTWARE
+ MAY BE PROTECTED BY ONE OR MORE PATENTS OR PATENT APPLICATIONS.
+ UNLESS OTHERWISE PROVIDED UNDER THE TERMS OF A FULLY-EXECUTED WRITTEN
+ AGREEMENT BY AND BETWEEN THE RECIPIENT HEREOF AND DTS, THE FOLLOWING
+ TERMS SHALL APPLY TO ANY USE OF THE SOFTWARE (THE "PRODUCT") AND, AS
+ APPLICABLE, ANY RELATED DOCUMENTATION:  (i) ANY USE OF THE PRODUCT
+ AND ANY RELATED DOCUMENTATION IS AT THE RECIPIENT'S SOLE RISK:
+ (ii) THE PRODUCT AND ANY RELATED DOCUMENTATION ARE PROVIDED "AS IS"
+ AND WITHOUT WARRANTY OF ANY KIND AND DTS EXPRESSLY DISCLAIMS ALL
+ WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE, REGARDLESS OF WHETHER DTS KNOWS OR HAS REASON TO KNOW OF THE
+ USER'S PARTICULAR NEEDS; (iii) DTS DOES NOT WARRANT THAT THE PRODUCT
+ OR ANY RELATED DOCUMENTATION WILL MEET USER'S REQUIREMENTS, OR THAT
+ DEFECTS IN THE PRODUCT OR ANY RELATED DOCUMENTATION WILL BE
+ CORRECTED; (iv) DTS DOES NOT WARRANT THAT THE OPERATION OF ANY
+ HARDWARE OR SOFTWARE ASSOCIATED WITH THIS DOCUMENT WILL BE
+ UNINTERRUPTED OR ERROR-FREE; AND (v) UNDER NO CIRCUMSTANCES,
+ INCLUDING NEGLIGENCE, SHALL DTS OR THE DIRECTORS, OFFICERS, EMPLOYEES,
+ OR AGENTS OF DTS, BE LIABLE TO USER FOR ANY INCIDENTAL, INDIRECT,
+ SPECIAL, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO
+ DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, AND LOSS
+ OF BUSINESS INFORMATION) ARISING OUT OF THE USE, MISUSE, OR INABILITY
+ TO USE THE PRODUCT OR ANY RELATED DOCUMENTATION.
+*======================================================================*/
+
+/********************************************************************************
+ *	SRS Labs CONFIDENTIAL
+ *	@Copyright 2010 by SRS Labs.
+ *	All rights reserved.
+ *
+ *  Description:
+ *  SRS Split Analysis TruBass types, constants
+ *
+ *  RCS keywords:
+ *	$Id: //srstech/srs_sa_trubass/std_fxp/include/srs_sa_trubass_def.h#2 $
+ *  $Author: oscarh $
+ *  $Date: 2011/02/15 $
+ *	
+********************************************************************************/
+
+#ifndef __SRS_SA_TRUBASS_DEF_H__
+#define __SRS_SA_TRUBASS_DEF_H__
+
+#include "srs_typedefs.h"
+
+
+
+typedef struct _SRSTBHDObj *SRSTBHDObj;
+
+
+#define SRS_TBHD_WORKSPACE_SIZE(blockLen)	(5*blockLen*sizeof(SRSInt32)+8)	//in bytes
+
+#define SRS_TBHD_GAIN_IWL		1	//iwl of input gain, output gain and bypass gain.
+#define SRS_TBHD_CTRL_IWL		1	//iwl of Trubass Control
+#define SRS_TBHD_REFLEVEL_IWL	4	//iwl of Reference Level control
+
+
+typedef enum
+{
+	SRS_TBHD_SPEAKER_LF_RESPONSE_40HZ,
+	SRS_TBHD_SPEAKER_LF_RESPONSE_60HZ,
+	SRS_TBHD_SPEAKER_LF_RESPONSE_100HZ,
+	SRS_TBHD_SPEAKER_LF_RESPONSE_120HZ,
+	SRS_TBHD_SPEAKER_LF_RESPONSE_150HZ,
+	SRS_TBHD_SPEAKER_LF_RESPONSE_200HZ,
+	SRS_TBHD_SPEAKER_LF_RESPONSE_250HZ,
+	SRS_TBHD_SPEAKER_LF_RESPONSE_300HZ,
+	SRS_TBHD_SPEAKER_LF_RESPONSE_400HZ,
+	SRS_TBHD_SPEAKER_LF_RESPONSE_CUSTOM,
+	SRS_TBHD_SPEAKER_LF_RESPONSE_SIZES,
+	SRS_TBHD_SPEAKER_LF_RESPONSE_UNUSED = 0x7FFFFFFF
+} SRSTBHDSpeakerLFResponse;
+
+//Properties describing speakers:
+typedef struct
+{
+	SRSTBHDSpeakerLFResponse		AudioFilter;	//SRSTBHDSpeakerLFResponse, Frequency response of the audio filter
+	SRSTBHDSpeakerLFResponse		AnalysisFilter;	//SRSTBHDSpeakerLFResponse, Frequency response of the analysis filter
+} SRSTBHDSpeakerSize;
+
+
+typedef union
+{
+	struct
+	{
+		SRSInt32	LowPassAudioFilterCoef[2];
+		SRSInt32	LowBandAudioFilterCoef[3];
+		SRSInt32	MidBandAudioFilterCoef[3];
+		SRSInt32	LowPassAnalysisFilterCoef[2];
+		SRSInt32	LowBandAnalysisFilterCoef[3];
+		SRSInt32	MidBandAnalysisFilterCoef[3];
+	} Struct;
+	SRSInt32	Array[16];
+} SRSTBHDCustomSpeakerCoefs;
+
+typedef enum
+{
+	SRS_TBHD_MODE_MONO,
+	SRS_TBHD_MODE_STEREO,
+	SRS_TBHD_MODE_NUM,
+	SRS_TBHD_MODE_UNUSED = 0x7FFFFFFF
+} SRSTBHDMode;
+
+typedef enum
+{
+	SRS_TBHD_OUTPUT_MIXED,		//Output the left channel and the right channel mixed with the bass component.
+	SRS_TBHD_OUTPUT_SEPARATED,	//Output the left channel, the right channel and the bass component separately.
+	SRS_TBHD_OUTPUT_UNUSED = 0x7FFFFFFF
+} SRSTBHDOutputOption;
+
+typedef struct
+{
+	SRSBool			Enable;
+	SRSInt16		InputGain;
+	SRSInt16		OutputGain;
+	SRSInt16		BypassGain;
+
+	SRSBool			LevelIndependentEnable;
+	SRSBool			SplitAnalysisEnable;	//If False, AudioFilter is used for analysis, and the AnalysisFilter is not referenced.
+
+	SRSInt16		Level;
+	SRSInt16		CompressorLevel;
+	SRSInt16		RefLevel;				//referenced only if LevelIndependentEnable is False
+
+	SRSTBHDMode		Mode;
+
+	SRSTBHDSpeakerSize	SpkSize; //{AudioFilter, AnalysisFilter}
+
+} SRSTBHDControls; //All public control parameters of TruBass HD
+
+#endif //__SRS_SA_TRUBASS_DEF_H__

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">কোন ডিভাইস পাওয়া যায়নি। আবার চেষ্টা করতে CrossMount চালু করুন।</string>
+    <string name="progress_scanning">খোঁজা হচ্ছে</string>
+    <string name="crossmount_enable_menu_item">CrossMount সক্রিয় করুন</string>
+    <string name="crossmount_refresh_menu_item">রিফ্রেশ করুন</string>
+    <string name="rename_device_menu_item">এই ডিভাইসের নতুন নাম দিন</string>
+    <string name="service_share_menu_item">সেবা শেয়ার করা হচ্ছে</string>
+    <string name="trust_list_menu_item">বিশ্বস্তের তালিকা ম্যানেজ করুন</string>
+    <string name="crossmount_preference_found_devices">লভ্য ডিভাইস</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> সংযুক্ত হবার পর নিম্নলিখিত ডিভাইসের সেবা ব্যবহার করতে পারে।</string>
+    <string name="service_sharing_message">আপনি যদি অনুমতি দেন তাহলে অন্যান্য ডিভাইস নিম্নলিখিত সেবা ব্যবহার করতে পারে।</string>
+    <string name="service_category_desc">আপনার ডিভাইসের সেবা</string>
+    <string name="service_is_mounted"><xliff:g id="service_name">%1$s</xliff:g> মাউন্ট করুন</string>
+    <string name="device_mounted_service"><xliff:g id="device_name">%1$s</xliff:g> কর্তৃক ব্যবহৃত</string>
+    <string name="bluetooth_rename_button">নতুন নাম দিন</string>
+    <string name="share_to_allow_pref">অন্যান্যদের সেবাটি ব্যবহার করতে দিন।</string>
+    <string name="share_to_category_desc">শেয়ার করার জন্য একটি ডিভাইস বাছুন</string>
+    <string name="mount_service_category_desc">এই ডিভাইসের সেবাগুলো</string>
+    <string name="disconnect_msg">বর্তমান সেবাটি বিচ্ছিন্ন করবেন?</string>
+    <string name="trust_list_category_desc">ডিভাইসকে বিশ্বাস করা</string>
+    <string name="trust_list_manage_message_desc">আপনার পূর্ব অনুমতি ছাড়া আপনার সেবা ব্যবহারের জন্য আপনি নিম্নলিখিত ডিভাইসগুলোকে অনুমতি দিয়েছেন। আপনি যদি এটি আর না চান তাহলে আপনি তাদের অবিশ্বস্ত বলতে পারেন।</string>
+    <string name="service_state_occupied">দখলকৃত</string>
+    <string name="service_state_available">লভ্য</string>
+    <string name="service_state_disable">নিষ্ক্রিয়</string>
+    <string name="service_state_enable">সক্রিয়</string>
+    <string name="service_state_connecting">সংযুক্ত হচ্ছে</string>
+    <string name="service_state_connected">সংযুক্ত</string>
+    <string name="touch_name">Crossmount স্পর্শ</string>
+    <string name="touch_msg">বর্তমানে <xliff:g id="service_name">%1$s</xliff:g> সাথে সংযুক্ত। এই স্থানটিতে স্পর্শ করুন।</string>
+    <string name="disconnect_touch_menu_item">বিচ্ছিন্ন করে বের হয়ে যান</string>
+    <string name="exit_touch_menu_item">কেবল বের হয়ে যান</string>
+    <string name="touch_exit_msg"><xliff:g id="service_name">%1$s</xliff:g> থেকে বিচ্ছিন্ন।</string>
+    <string name="exit_touch_button">বের হউন</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Netika atrasta neviena pieejama ierīce. Lai mēģinātu vēlreiz, ieslēdziet CrossMount.</string>
+    <string name="progress_scanning">Meklē</string>
+    <string name="crossmount_enable_menu_item">Iespējot CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Atsvaidzināt</string>
+    <string name="rename_device_menu_item">Pārdēvēt šo ierīci</string>
+    <string name="service_share_menu_item">Pakalpojumu koplietošana</string>
+    <string name="trust_list_menu_item">Pārvaldīt uzticamo sarakstu</string>
+    <string name="crossmount_preference_found_devices">Pieejamās ierīces</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> var izmantot tālāk norādīto ierīču pakalpojumus pēc savienojuma izveides.</string>
+    <string name="service_sharing_message">Tālāk norādītos pakalpojumus var izmantot citas ierīces, ja atļaujat to.</string>
+    <string name="service_category_desc">Ierīces pakalpojumi</string>
+    <string name="service_is_mounted">Uzstādīt <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Izmanto <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Pārdēvēt</string>
+    <string name="share_to_allow_pref">Ļaut citiem izmantot šo pakalpojumu.</string>
+    <string name="share_to_category_desc">Izvēlēties koplietojamo ierīci</string>
+    <string name="mount_service_category_desc">Ierīces pakalpojumi</string>
+    <string name="disconnect_msg">Vai atvienot pašreizējo pakalpojumu?</string>
+    <string name="trust_list_category_desc">Uzticamās ierīces</string>
+    <string name="trust_list_manage_message_desc">Jūs ļaujat tālāk norādītajām ierīcēm izmantot jūsu pakalpojumus bez iepriekšēja apstiprinājuma. Varat atcelt uzticamību, ja vairs nevēlaties tos.</string>
+    <string name="service_state_occupied">Aizņemts</string>
+    <string name="service_state_available">Pieejams</string>
+    <string name="service_state_disable">Atspējots</string>
+    <string name="service_state_enable">Iespējots</string>
+    <string name="service_state_connecting">Savienojas</string>
+    <string name="service_state_connected">Savienots</string>
+    <string name="touch_name">CrossMount skāriens</string>
+    <string name="touch_msg">Pašreiz pievienots <xliff:g id="service_name">%1$s</xliff:g>. Pieskarieties šeit.</string>
+    <string name="disconnect_touch_menu_item">Atvienot un iziet</string>
+    <string name="exit_touch_menu_item">Tikai iziet</string>
+    <string name="touch_exit_msg">Atvienots no <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Iziet</string>
+</resources>

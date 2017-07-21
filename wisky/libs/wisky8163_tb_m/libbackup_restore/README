@@ -1,0 +1,29 @@
+Library of MTK recovery features, icluding partition size changed upgrade and special factory reset,
+backup and restore user data.
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+libbackup_restore.a contains MediaTek developed recovery modules.  
+Without this, proprietary functionalities will not work¡¨
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libcrypto_static.a
+2.  libselinux.a
+3.  libsepol.a
+
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/' and 'alps' folder.
+
+HOW TO USE IT?
+==============
+
+Provide API for recovery to linking.
+all api interface are at (vendor/mediatek/proprietary/protect/bootable/recovery/backup_restore.h)
+
+All the source code of this library were written by MediaTek co..

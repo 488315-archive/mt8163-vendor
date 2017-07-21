@@ -1,0 +1,22 @@
+This module creates S62XD, the calibration daemon for the S62X magnetic field
+sensors from Smartsensor Inc.
+
+This daemon is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+S62XD is the native daemon which is used in conjunction with the Android Sensor
+framework. It reads the magnetic field measurement from S62X device driver and
+write back the calibrated result. So that, Android Sensor HAL can read the
+calibrated magnetic field measurement from S62X device driver.
+
+HOW IT WAS BUILT?
+==================
+> ./mk $(PROJECT_NAME) mm
+
+HOW TO USE IT?
+==============
+The S62XD should be invoked by init.rc or equivalent mechanisms. It only
+interacts with S62X device driver and writes data for housekeeping at
+/data/misc/s62x folder.

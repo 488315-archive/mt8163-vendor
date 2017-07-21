@@ -1,0 +1,31 @@
+Library of MTK ape related codec modules.
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+libawb_wwrap.so contains MediaTek developed ape related codec modules.  
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libdl.so
+2.  libcutils.so
+3.  libui.so
+4.  libdrvb.a
+
+and the following libs from MediaTek:
+1.  libmtk_drvb.so
+2.  libarm_mtk.a
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+
+Provide api for ape codec features.
+all api interface are at (vendor/mediatek/proprietary/external/audio_codec_wrap)
+
+All the source code of this library were written by MediaTek co..

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">No available devices were found. Turn on CrossMount to try again.</string>
+    <string name="progress_scanning">Searching</string>
+    <string name="crossmount_enable_menu_item">Enable CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Refresh</string>
+    <string name="rename_device_menu_item">Rename this device</string>
+    <string name="service_share_menu_item">Service sharing</string>
+    <string name="trust_list_menu_item">Manage trust list</string>
+    <string name="crossmount_preference_found_devices">Available devices</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> can use services of the following devices after connection.</string>
+    <string name="service_sharing_message">Following services can be used by other devices if you allow it.</string>
+    <string name="service_category_desc">Services of your device</string>
+    <string name="service_is_mounted">Mount <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Used by <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Rename</string>
+    <string name="share_to_allow_pref">Allow others to use the service.</string>
+    <string name="share_to_category_desc">Choose a device to share</string>
+    <string name="mount_service_category_desc">Services of the device</string>
+    <string name="disconnect_msg">Disconnect current service?</string>
+    <string name="trust_list_category_desc">Trust devices</string>
+    <string name="trust_list_manage_message_desc">You allow following devices to use your services without your confirmation before.You can distrust them if you do not want to any longer.</string>
+    <string name="service_state_occupied">Occupied</string>
+    <string name="service_state_available">Available</string>
+    <string name="service_state_disable">Disabled</string>
+    <string name="service_state_enable">Enabled</string>
+    <string name="service_state_connecting">Connecting</string>
+    <string name="service_state_connected">Connected</string>
+    <string name="touch_name">CrossMount touch</string>
+    <string name="touch_msg">Currently connected to <xliff:g id="service_name">%1$s</xliff:g>. Please Touch in this area.</string>
+    <string name="disconnect_touch_menu_item">Disconnect and exit</string>
+    <string name="exit_touch_menu_item">Exit only</string>
+    <string name="touch_exit_msg">Disconnected from <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Exit</string>
+</resources>

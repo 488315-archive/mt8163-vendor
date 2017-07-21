@@ -1,0 +1,24 @@
+This directory contains extended static library for SurfaceFlinger
+
+
+WHAT IT DOES?
+=============
+
+It provides exteneded functionality for SurfaceFlinger to use.
+
+
+HOW IT WAS BUILT?
+==================
+
+It needs the following libs from AOSP:
+1.  libutils.so
+2.  libcutils.so
+
+
+HOW TO USE IT?
+==============
+
+Files in this directory is used to
+generate a shared library 'libsurfaceflinger.so'.
+
+All the source code of this library were written by MediaTek co..

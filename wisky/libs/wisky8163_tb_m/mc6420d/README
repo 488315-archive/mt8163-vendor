@@ -1,0 +1,18 @@
+MC6420 daemon
+
+WHAT IT DOES?
+=============
+MC6420 daemon
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+and the following libs from MediaTek:
+1. libmcubesensors.a
+
+HOW TO USE IT?
+==============
+Start mc6420d service
+
+All the source code of this library were written by mcube co..

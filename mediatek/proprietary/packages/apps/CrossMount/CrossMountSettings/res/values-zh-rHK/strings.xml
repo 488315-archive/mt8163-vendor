@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">找不到可用的裝置。開啟CrossMount並再嘗試。</string>
+    <string name="progress_scanning">搜尋中</string>
+    <string name="crossmount_enable_menu_item">開啟CrossMount</string>
+    <string name="crossmount_refresh_menu_item">重新載入</string>
+    <string name="rename_device_menu_item">重新命名裝置</string>
+    <string name="service_share_menu_item">搜尋裝置</string>
+    <string name="trust_list_menu_item">管理信任清單</string>
+    <string name="crossmount_preference_found_devices">可用的裝置</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g>可於連線後使用下列裝置的服務。</string>
+    <string name="service_sharing_message">若你允許，以下的服務可被其他裝置使用。</string>
+    <string name="service_category_desc">裝置的服務</string>
+    <string name="service_is_mounted">掛載<xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">被<xliff:g id="device_name">%1$s</xliff:g>使用</string>
+    <string name="bluetooth_rename_button">重新命名</string>
+    <string name="share_to_allow_pref">允許其他裝置使用服務。</string>
+    <string name="share_to_category_desc">選擇分享到的裝置</string>
+    <string name="mount_service_category_desc">裝置的服務</string>
+    <string name="disconnect_msg">中斷現時的服務嗎?</string>
+    <string name="trust_list_category_desc">信任的裝置</string>
+    <string name="trust_list_manage_message_desc">你允許以下裝置於未經確認的情況下使用服務。若你不想他們使用的話，你可以隨時解除信任。</string>
+    <string name="service_state_occupied">已被佔用</string>
+    <string name="service_state_available">可用</string>
+    <string name="service_state_disable">已關閉</string>
+    <string name="service_state_enable">已開啟</string>
+    <string name="service_state_connecting">連線中</string>
+    <string name="service_state_connected">已連線</string>
+    <string name="touch_name">CrossMount接觸</string>
+    <string name="touch_msg">現時已連接到 <xliff:g id="service_name">%1$s</xliff:g>。請觸碰此範圍</string>
+    <string name="disconnect_touch_menu_item">斷線並退出</string>
+    <string name="exit_touch_menu_item">只退出</string>
+    <string name="touch_exit_msg">已從<xliff:g id="service_name">%1$s</xliff:g>中斷連線。</string>
+    <string name="exit_touch_button">退出</string>
+</resources>

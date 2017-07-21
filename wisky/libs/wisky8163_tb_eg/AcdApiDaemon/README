@@ -1,0 +1,19 @@
+AcdApiDaemon daemon
+
+WHAT IT DOES?
+=============
+AcdApiDaemon daemon
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+liblog libcutils libutils libui libbinder
+
+and the following libs from MediaTek:
+1. N/A
+
+HOW TO USE IT?
+==============
+Start AcdApiDaemon service
+
+All the source code of this library were written by ALPS ELECTRIC co..

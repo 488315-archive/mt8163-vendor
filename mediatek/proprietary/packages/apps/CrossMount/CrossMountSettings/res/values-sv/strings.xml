@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Inga tillgängliga enheter hittades. Aktivera CrossMount för att försöka igen.</string>
+    <string name="progress_scanning">Söker</string>
+    <string name="crossmount_enable_menu_item">Aktivera CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Uppdatera</string>
+    <string name="rename_device_menu_item">Byt namn på den här enheten</string>
+    <string name="service_share_menu_item">Delningstjänst</string>
+    <string name="trust_list_menu_item">Hantera betrodda certifikat</string>
+    <string name="crossmount_preference_found_devices">Tillgängliga enheter</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> kan använda tjänster från följande enheter efter anslutning.</string>
+    <string name="service_sharing_message">Om du tillåter det så kan följande tjänster användas av andra enheter.</string>
+    <string name="service_category_desc">Tjänster från din enhet</string>
+    <string name="service_is_mounted">Montera <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Används av <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Byt namn</string>
+    <string name="share_to_allow_pref">Tillåt att tjänsten används av andra.</string>
+    <string name="share_to_category_desc">Välj en enhet för delning</string>
+    <string name="mount_service_category_desc">Tjänster från enheten</string>
+    <string name="disconnect_msg">Koppla från nuvarande tjänst?</string>
+    <string name="trust_list_category_desc">Pålitliga enheter</string>
+    <string name="trust_list_manage_message_desc">Du tillåter att följande enheter använder dina tjänster utan din bekräftelse. Du kan välja att inte lita på dem om du ändrar dig.</string>
+    <string name="service_state_occupied">Upptagen</string>
+    <string name="service_state_available">Tillgänglig</string>
+    <string name="service_state_disable">Inaktiverad</string>
+    <string name="service_state_enable">Aktiverad</string>
+    <string name="service_state_connecting">Ansluter</string>
+    <string name="service_state_connected">Ansluten</string>
+    <string name="touch_name">CrossMount-tryck</string>
+    <string name="touch_msg">För närvarande ansluten till <xliff:g id="service_name">%1$s</xliff:g>. Tryck i detta område.</string>
+    <string name="disconnect_touch_menu_item">Koppla från och avsluta</string>
+    <string name="exit_touch_menu_item">Avsluta endast</string>
+    <string name="touch_exit_msg">Bortkopplad från <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Avsluta</string>
+</resources>

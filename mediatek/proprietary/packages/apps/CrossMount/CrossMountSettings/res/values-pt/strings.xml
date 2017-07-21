@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Nenhum dispositivo disponível foi encontrado. Ligue CrossMount para tentar novamente.</string>
+    <string name="progress_scanning">Pesquisando</string>
+    <string name="crossmount_enable_menu_item">Ativar CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Atualizar</string>
+    <string name="rename_device_menu_item">Renomear este dispositivo</string>
+    <string name="service_share_menu_item">Compartilhamento de serviço</string>
+    <string name="trust_list_menu_item">Gerenciar lista de confiança</string>
+    <string name="crossmount_preference_found_devices">Dispositivos disponíveis</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> pode usar os serviços de um dos seguintes dispositivos após a conexão.</string>
+    <string name="service_sharing_message">Os seguintes serviços podem ser usados ​​por outros dispositivos se você permitir.</string>
+    <string name="service_category_desc">Serviços no seu dispositivo</string>
+    <string name="service_is_mounted">Montar <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Usado por <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Renomear</string>
+    <string name="share_to_allow_pref">Permitir que outros usem o serviço.</string>
+    <string name="share_to_category_desc">Escolher um dispositivo para compartilhar</string>
+    <string name="mount_service_category_desc">Serviços do dispositivo</string>
+    <string name="disconnect_msg">Desconectar o serviço atual?</string>
+    <string name="trust_list_category_desc">Dispositivos de confiança</string>
+    <string name="trust_list_manage_message_desc">Você permite que o seguinte dispositivos utilize seus serviços sem a sua confirmação prévia.Você pode não confiar neles se você não quiser mais.</string>
+    <string name="service_state_occupied">Ocupado</string>
+    <string name="service_state_available">Disponível</string>
+    <string name="service_state_disable">Desativado</string>
+    <string name="service_state_enable">Ativado</string>
+    <string name="service_state_connecting">Conectando</string>
+    <string name="service_state_connected">Conectado</string>
+    <string name="touch_name">Toque CrossMount</string>
+    <string name="touch_msg">Atualmente conectado a <xliff:g id="service_name">%1$s</xliff:g>. Por favor Toque nesta área.</string>
+    <string name="disconnect_touch_menu_item">Desconectar e sair</string>
+    <string name="exit_touch_menu_item">Sair apenas</string>
+    <string name="touch_exit_msg">Desconectado de <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Sair</string>
+</resources>

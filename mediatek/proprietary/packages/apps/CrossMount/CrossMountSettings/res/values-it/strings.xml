@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Nessun dispositivo disponibile nelle vicinanze. Attivare CrossMount per riprovare.</string>
+    <string name="progress_scanning">Ricerca in corso</string>
+    <string name="crossmount_enable_menu_item">Abilita CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Aggiorna</string>
+    <string name="rename_device_menu_item">Rinomina questo dispositivo</string>
+    <string name="service_share_menu_item">Condivisione servizio</string>
+    <string name="trust_list_menu_item">Gestione elenco sicuri</string>
+    <string name="crossmount_preference_found_devices">Dispositivi disponibili</string>
+    <string name="crossmount_is_visible_message">Dopo la connessione, <xliff:g id="device_name">%1$s</xliff:g> può utilizzare i servizi dei seguenti dispositivi.</string>
+    <string name="service_sharing_message">Se consentito, i seguenti servizi possono essere utilizzati da altri dispositivi.</string>
+    <string name="service_category_desc">Servizi del dispositivo</string>
+    <string name="service_is_mounted">Monta <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Utilizzato da <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Rinomina</string>
+    <string name="share_to_allow_pref">Consenti ad altri utenti di utilizzare il servizio</string>
+    <string name="share_to_category_desc">Scegliere un dispositivo da condividere</string>
+    <string name="mount_service_category_desc">Servizi del dispositivo</string>
+    <string name="disconnect_msg">Disconnettere il servizio corrente?</string>
+    <string name="trust_list_category_desc">Dispositivi sicuri</string>
+    <string name="trust_list_manage_message_desc">"È stato consentito ai seguenti dispositivi di utilizzare i servizi senza conferma da parte dell'utente. È possibile eliminarli dall'elenco dei dispositivi sicuri per annullare questo modo di procedere."</string>
+    <string name="service_state_occupied">Occupato</string>
+    <string name="service_state_available">Disponibile</string>
+    <string name="service_state_disable">Disabilitato</string>
+    <string name="service_state_enable">Abilitato</string>
+    <string name="service_state_connecting">Connessione</string>
+    <string name="service_state_connected">Connessione in corso</string>
+    <string name="touch_name">Toccare CrossMount</string>
+    <string name="touch_msg">Attualmente connesso a <xliff:g id="service_name">%1$s</xliff:g>. Toccare questa area.</string>
+    <string name="disconnect_touch_menu_item">Disconnetti ed esci</string>
+    <string name="exit_touch_menu_item">Solo uscita</string>
+    <string name="touch_exit_msg">Disconnesso da <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Esci</string>
+</resources>

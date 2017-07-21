@@ -1,0 +1,11 @@
+WHAT IT DOES?
+=============
+This is the core service of RecoveryManagerService(RMS).
+
+HOW IT WAS BUILT?
+==================
+This module is built to a static java library recovery_manager, which is linked to service.core
+
+HOW TO USE IT?
+==============
+RMS is initialized in SystemServer. When system get ready, it should call systemReady() of RMS.

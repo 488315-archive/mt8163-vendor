@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Walang nahanap na mga magagamit na device. I-on ang CrossMount para subukan muli.</string>
+    <string name="progress_scanning">Naghahanap</string>
+    <string name="crossmount_enable_menu_item">Paganahin ang CrossMount</string>
+    <string name="crossmount_refresh_menu_item">I-refresh</string>
+    <string name="rename_device_menu_item">Baguhin ang pangalan ng device na ito</string>
+    <string name="service_share_menu_item">Pagbabahagi ng serbisyo</string>
+    <string name="trust_list_menu_item">Pamahalaan ang listahan ng pinagkakatiwalaan</string>
+    <string name="crossmount_preference_found_devices">Mga magagamit na device</string>
+    <string name="crossmount_is_visible_message">Magagamit ng <xliff:g id="device_name">%1$s</xliff:g> ang mga serbisyo ng mga sumusunod na device matapos makonekta.</string>
+    <string name="service_sharing_message">Ang mga sumusunod na serbisyo ay magagamit ng mga ibang device kapag pinahintulutan mo ito.</string>
+    <string name="service_category_desc">Mga serbisyo ng device mo</string>
+    <string name="service_is_mounted">I-mount ang <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Ginamit ng <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Palitan ang pangalan</string>
+    <string name="share_to_allow_pref">Pahintulutan ang ibang gamitin ang serbisyo.</string>
+    <string name="share_to_category_desc">Piliin ang device na ibabahagi</string>
+    <string name="mount_service_category_desc">Mga serbisyo ng device</string>
+    <string name="disconnect_msg">Idiskonekta ang kasalukuyang serbisyo?</string>
+    <string name="trust_list_category_desc">Mga pinagkakatiwalaang device</string>
+    <string name="trust_list_manage_message_desc">Pinahihintulutan mo ang mga sumusunod na device na gamitin ang mga serbisyo mo nang wala mong paunang kumpirmasyon. Maaari mo silang hindi pagkatiwalaan kung ayaw mo na.</string>
+    <string name="service_state_occupied">Okupado</string>
+    <string name="service_state_available">Magagamit</string>
+    <string name="service_state_disable">Hindi Gumagana</string>
+    <string name="service_state_enable">Gumagana</string>
+    <string name="service_state_connecting">Kumukunekta</string>
+    <string name="service_state_connected">Konektado</string>
+    <string name="touch_name">CrossMount hipuin</string>
+    <string name="touch_msg">Kasalukuyang konektado sa <xliff:g id="service_name">%1$s</xliff:g>. Pakihipo sa lugar na ito.</string>
+    <string name="disconnect_touch_menu_item">Idiskonekta at lumabas</string>
+    <string name="exit_touch_menu_item">Lumabas lang</string>
+    <string name="touch_exit_msg">Diskonektado mula sa <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Lumabas</string>
+</resources>

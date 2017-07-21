@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/pdr_title">
+    <com.mediatek.sensorhub.ui.PdrLayoutPreference
+        android:key="pdr_set_view"
+        android:layout="@layout/sensor_pdr_view"
+        android:selectable="false" />
+</PreferenceScreen>

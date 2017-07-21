@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/activity_title">
+
+        <Preference android:key="0"
+                android:title="@string/still_info"/>
+
+        <Preference android:key="1"
+                android:title="@string/test_standing_info"/>
+
+        <Preference android:key="2"
+                android:title="@string/test_sitting_info"/>
+
+        <Preference android:key="3"
+                android:title="@string/test_lying_info"/>
+
+        <Preference android:key="4"
+                android:title="@string/on_foot_info"/>
+
+        <Preference android:key="5"
+                android:title="@string/walking_info"/>
+
+        <Preference android:key="6"
+                android:title="@string/running_info"/>
+
+        <Preference android:key="7"
+                android:title="@string/climbing_info"/>
+
+        <Preference android:key="8"
+                android:title="@string/on_bike_info"/>
+
+        <Preference android:key="9"
+                android:title="@string/in_vehicle_info"/>
+
+        <Preference android:key="10"
+                android:title="@string/tilting_info"/>
+
+        <Preference android:key="11"
+                android:title="@string/unknown_info"/>
+
+</PreferenceScreen>

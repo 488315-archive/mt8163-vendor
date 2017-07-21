@@ -1,0 +1,18 @@
+The module creates 3G VT video encoder library
+This library is pre-built by MediaTek internally.
+
+WHAT IT DOES?
+=============
+3G VT encoder offers constant bitrate control for H.263/MPEG4 and offers
+best quality at the same time.
+
+libuvtswenc.a contains the 3G VT encoder core.
+
+HOW IT WAS BUILT?
+==================
+It is released as static library, and should be built with VTMAL module.
+
+HOW TO USE IT?
+==============
+This library should be used with VTMAL module and cannot be used directly by an
+application developer.

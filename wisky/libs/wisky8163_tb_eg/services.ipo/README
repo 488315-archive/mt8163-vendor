@@ -1,0 +1,9 @@
+To build ActivityManagerPlus.jar:
+
+1) run prepare_ActivityManagerPlus.sh
+   it will copy ActivityManagerPlus.java frameworks/base/services/core/java/com/android/server/am/
+   and clean all classes in services & ActivityManagerPlus
+2) build services.jar
+   ex, make services
+3) run pack_ActivityManagerPlus.sh
+   which will pack all ActivityManagerPlus*.class into ActivityManagerPlus.jar

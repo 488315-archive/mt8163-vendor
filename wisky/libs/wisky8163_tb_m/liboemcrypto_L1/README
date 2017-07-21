@@ -1,0 +1,22 @@
+Library of Drm features, including api to call tee.
+
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+liboemcrypto_L1 will be used by liboemcrypto, it calls tee to implement functions.
+Without them, classic drm will not work.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. libutils.so
+
+and the following libs from MediaTek:
+
+All source/dependency modules of this module are already put in
+'system/lib' folder.
+
+HOW TO USE IT?
+==============
+liboemcrypto_L1 provides interface of tee method, it is built library.

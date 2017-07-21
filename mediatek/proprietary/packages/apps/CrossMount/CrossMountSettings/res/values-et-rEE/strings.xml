@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Saadaolevaid seadmeid ei leitud. Lülitage CrossMount sisse, et uuesti proovida.</string>
+    <string name="progress_scanning">Otsimine</string>
+    <string name="crossmount_enable_menu_item">Luba CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Värskenda</string>
+    <string name="rename_device_menu_item">Nimeta see seade ümber</string>
+    <string name="service_share_menu_item">Teenuse ühiskasutus</string>
+    <string name="trust_list_menu_item">Halda usaldusloendit</string>
+    <string name="crossmount_preference_found_devices">Saadavalolevad seadmed</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> saab pärast ühendumist kasutada järgmiste seadmete teenuseid.</string>
+    <string name="service_sharing_message">Teised seadmed saavad teie loal kasutada järgmisi teenuseid.</string>
+    <string name="service_category_desc">Teie seadme teenused</string>
+    <string name="service_is_mounted">Mount <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Kasutab <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Nimeta ümber</string>
+    <string name="share_to_allow_pref">Luba teistel seda teenust kasutada.</string>
+    <string name="share_to_category_desc">Vali ühiskasutatav seade</string>
+    <string name="mount_service_category_desc">Seadme teenused</string>
+    <string name="disconnect_msg">Katkestan ühenduse praeguse teenusega?</string>
+    <string name="trust_list_category_desc">Usaldusväärsed seadmed</string>
+    <string name="trust_list_manage_message_desc">Te lubate järgmistel seadmetel kasutada oma teenuseid eelneva teiepoolse kinnituseta. Võite ka määratleda need mitteusaldusväärsetena, kui neid enam ei vaja.</string>
+    <string name="service_state_occupied">Hõivatud</string>
+    <string name="service_state_available">Saadaval</string>
+    <string name="service_state_disable">Keelatud</string>
+    <string name="service_state_enable">Lubatud</string>
+    <string name="service_state_connecting">Ühendumine</string>
+    <string name="service_state_connected">Ühendatud</string>
+    <string name="touch_name">CrossMount puude</string>
+    <string name="touch_msg">On praegu ühendatud teenusega <xliff:g id="service_name">%1$s</xliff:g>. Palun puudutage seda ala.</string>
+    <string name="disconnect_touch_menu_item">Katkesta ühendus ja välju</string>
+    <string name="exit_touch_menu_item">Ainult välju</string>
+    <string name="touch_exit_msg">Katkesta ühendus teenusega <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Välju</string>
+</resources>

@@ -1,0 +1,21 @@
+Library of Drm features, including cdm functions.
+
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+libcdm will be used by drm, it implement basic functions.
+Without them, widevine drm will not work.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+and the following libs from MediaTek:
+
+All source/dependency modules of this module are already put in
+'system/lib' folder.
+
+HOW TO USE IT?
+==============
+libcdm provides interface of drm basic functions, it is built library.

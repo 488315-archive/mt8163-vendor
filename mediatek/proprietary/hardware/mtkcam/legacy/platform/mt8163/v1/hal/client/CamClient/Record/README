@@ -1,0 +1,15 @@
+WHAT IT DOES?
+=============
+camera shot scenario of adapter for hal and driver related files.
+
+
+HOW IT WAS BUILT?
+==================
+It can build the following static library file :
+libcam.client.camclient.record.platform.a
+
+
+HOW TO USE IT?
+==============
+Provide api for camera client related features.
+All the source code of this library were written by MediaTek co..

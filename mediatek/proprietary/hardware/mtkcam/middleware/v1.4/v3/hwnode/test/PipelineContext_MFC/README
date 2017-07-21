@@ -1,0 +1,40 @@
+test program for MFC pipeline
+
+
+WHAT IT DOES?
+=============
+
+A test program that tests
+pass 1 node, multi-frame capture node and jpeg nodes.
+
+
+HOW IT WAS BUILT?
+==================
+
+It needs the following libs from AOSP:
+1. liblog
+2. libutils
+3. libcutils
+
+and the following libs from MediaTek:
+1. libcamdrv
+2. libcam_utils
+3. libcam_hwutils
+4. libcam.metadata
+5. libcam.halsensor
+6. libcam.metadataprovider
+7. libcam3_utils
+8. libcam3_hwnode
+9. libcam3_pipeline
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+
+HOW TO USE IT?
+==============
+
+Launch test_pipelinecontext_MFC to test functionalities of
+pass 1, multi-frame capture and jpeg nodes.
+
+All the source code of this program were written by MediaTek co..

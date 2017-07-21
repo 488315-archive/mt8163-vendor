@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Доступные устройства не найдены. Включите CrossMount для повторной попытки.</string>
+    <string name="progress_scanning">Поиск</string>
+    <string name="crossmount_enable_menu_item">Включить CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Обновить</string>
+    <string name="rename_device_menu_item">Переименуйте данное устройство</string>
+    <string name="service_share_menu_item">Общий доступ к службе</string>
+    <string name="trust_list_menu_item">Управление списком достоверных сертификатов</string>
+    <string name="crossmount_preference_found_devices">Доступные устройства</string>
+    <string name="crossmount_is_visible_message">После подключения <xliff:g id="device_name">%1$s</xliff:g> сможет пользоваться службами следующих устройств.</string>
+    <string name="service_sharing_message">Следующие службы могут использоваться другими устройствами после вашего разрешения.</string>
+    <string name="service_category_desc">Службы вашего устройства</string>
+    <string name="service_is_mounted">Подключить <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Использует <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Переименовать</string>
+    <string name="share_to_allow_pref">Разрешить другим пользоваться данной службой.</string>
+    <string name="share_to_category_desc">Выберите устройство для совместного доступа</string>
+    <string name="mount_service_category_desc">Службы данного устройства</string>
+    <string name="disconnect_msg">Отключить текущую службу?</string>
+    <string name="trust_list_category_desc">Доверенные устройства</string>
+    <string name="trust_list_manage_message_desc">Вы разрешаете следующим устройствам пользоваться вашими службами без вашего подтверждения. Вы можете отказать им в доверии, если вам это потребуется.</string>
+    <string name="service_state_occupied">Занято</string>
+    <string name="service_state_available">Доступно</string>
+    <string name="service_state_disable">Отключено</string>
+    <string name="service_state_enable">Включено</string>
+    <string name="service_state_connecting">Подключение</string>
+    <string name="service_state_connected">Подключено</string>
+    <string name="touch_name">Сенсорная функция CrossMount</string>
+    <string name="touch_msg">В данный момент подключено к <xliff:g id="service_name">%1$s</xliff:g>. Коснитесь данного участка.</string>
+    <string name="disconnect_touch_menu_item">Отключение и выход</string>
+    <string name="exit_touch_menu_item">Только выход</string>
+    <string name="touch_exit_msg">Отключено от <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Выход</string>
+</resources>

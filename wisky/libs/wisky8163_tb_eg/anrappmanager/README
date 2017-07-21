@@ -1,0 +1,18 @@
+This module is ANR app manager.
+This library is pre-built by MediaTek internally.
+
+WHAT IT DOES?
+=============
+The purpose of ANR app manager is to let ANR process dump message history
+and message queue when ANR happens.
+
+HOW IT WAS BUILT?
+==================
+mmm vendor/mediatek/proprietary/protect/frameworks/base/anrappmanager
+
+HOW TO USE IT?
+==============
+ANR app manager should not be used directly by an application developer.
+It is used by ANR manager.
+
+The majority of source code for this library were written by MediaTek.

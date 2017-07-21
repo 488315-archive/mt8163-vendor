@@ -1,0 +1,16 @@
+Library of MTK ISP HW User Interface driver.
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+ResManager middleware
+
+HOW IT WAS BUILT?
+==================
+libcamdrv_resmanager.a
+
+HOW TO USE IT?
+==============
+See the api

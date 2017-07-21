@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">ไม่พบอุปกรณ์ที่ใช้ได้ เปิด CrossMount เพื่อลองอีกครั้ง</string>
+    <string name="progress_scanning">กำลังค้นหา</string>
+    <string name="crossmount_enable_menu_item">เปิดใช้งาน CrossMount</string>
+    <string name="crossmount_refresh_menu_item">รีเฟรช</string>
+    <string name="rename_device_menu_item">เปลี่ยนชื่ออุปกรณ์นี้</string>
+    <string name="service_share_menu_item">กำลังแชร์บริการ</string>
+    <string name="trust_list_menu_item">จัดการรายการที่ไว้ใจ</string>
+    <string name="crossmount_preference_found_devices">อุปกรณ์ที่ใช้ได้</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> สามารถใช้บริการของอุปกรณ์ต่อไปนี้หลังจากที่เชื่อมต่อ</string>
+    <string name="service_sharing_message">ถ้าคุณอนุญาต อุปกรณ์อื่น ๆ สามารถใช้บริการต่อไปนี้ได้</string>
+    <string name="service_category_desc">บริการของอุปกรณ์ของคุณ</string>
+    <string name="service_is_mounted">เมาต์ <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">ใช้โดย <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">เปลี่ยนชื่อ</string>
+    <string name="share_to_allow_pref">อนุญาตให้อุปกรณ์อื่นใช้บริการ</string>
+    <string name="share_to_category_desc">เลือกอุปกรณ์ที่จะแชร์</string>
+    <string name="mount_service_category_desc">บริการของอุปกรณ์</string>
+    <string name="disconnect_msg">ตัดการเชื่อมต่อบริการปัจจุบัน?</string>
+    <string name="trust_list_category_desc">อุปกรณ์ที่ไว้ใจ</string>
+    <string name="trust_list_manage_message_desc">คุณอนุญาตให้อุปกรณ์ต่อไปนี้ใช้บริการของคุณโดยไม่ต้องยืนยันก่อน คุณสามารถเลิกไว้ใจอุปกรณ์เหล่านั้น ถ้าคุณไม่ต้องการให้ใช้อีกต่อไป</string>
+    <string name="service_state_occupied">ถูกใช้อยู่</string>
+    <string name="service_state_available">ว่าง</string>
+    <string name="service_state_disable">ปิดทำงาน</string>
+    <string name="service_state_enable">เปิดทำงาน</string>
+    <string name="service_state_connecting">กำลังเชื่อมต่อ</string>
+    <string name="service_state_connected">เชื่อมต่อแล้ว</string>
+    <string name="touch_name">CrossMount ทัช</string>
+    <string name="touch_msg">ขณะนี้เชื่อมต่อไปยัง <xliff:g id="service_name">%1$s</xliff:g> โปรดแตะในบริเวณนี้</string>
+    <string name="disconnect_touch_menu_item">ตัดการเชื่อมต่อและออก</string>
+    <string name="exit_touch_menu_item">ออกเท่านั้น</string>
+    <string name="touch_exit_msg">ตัดการเชื่อมต่อจาก <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="exit_touch_button">ออก</string>
+</resources>

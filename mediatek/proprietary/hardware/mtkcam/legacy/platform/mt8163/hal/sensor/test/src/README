@@ -1,0 +1,16 @@
+
+WHAT IT DOES?
+=============
+camera hal sensor test module.
+
+
+HOW IT WAS BUILT?
+==================
+It can build the following executable file:
+test_preview
+
+
+HOW TO USE IT?
+==============
+See source code.
+

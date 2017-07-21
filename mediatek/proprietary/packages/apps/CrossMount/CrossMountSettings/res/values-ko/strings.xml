@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">사용 가능한 장치를찾을 수 없습니다 CrossMount를 켜고 다시 시도하십시오.</string>
+    <string name="progress_scanning">검색하는 중</string>
+    <string name="crossmount_enable_menu_item">CrossMount 사용</string>
+    <string name="crossmount_refresh_menu_item">새로 고침</string>
+    <string name="rename_device_menu_item">이 장치의 이름 변경</string>
+    <string name="service_share_menu_item">서비스 공유</string>
+    <string name="trust_list_menu_item">신뢰할 수 있는 목록 관리</string>
+    <string name="crossmount_preference_found_devices">사용 가능한 장치</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g>은(는) 연결 후 다음 장치의 서비스를 사용할 수 있습니다.</string>
+    <string name="service_sharing_message">허용할 경우 다른 장치에서도 다음 서비스를 사용할 수 있습니다.</string>
+    <string name="service_category_desc">사용자 장치의 서비스</string>
+    <string name="service_is_mounted"><xliff:g id="service_name">%1$s</xliff:g> 탑재</string>
+    <string name="device_mounted_service"><xliff:g id="device_name">%1$s</xliff:g>에 의해 사용됨</string>
+    <string name="bluetooth_rename_button">이름 변경</string>
+    <string name="share_to_allow_pref">다른 사용자가 서비스를 사용할 수 있습니다.</string>
+    <string name="share_to_category_desc">공유할 장치 선택</string>
+    <string name="mount_service_category_desc">장치의 서비스</string>
+    <string name="disconnect_msg">현재 서비스의 연결을 끊으시겠습니까?</string>
+    <string name="trust_list_category_desc">신뢰할 수 있는 장치</string>
+    <string name="trust_list_manage_message_desc">다음 장치가 사전 확인 없이 사용자의 서비스를 사용하도록 허용합니다. 더 이상 사용을 허용하지 않으려는 경우 장치를 신뢰하지 않음으로 설정할 수 있습니다.</string>
+    <string name="service_state_occupied">사용 중</string>
+    <string name="service_state_available">사용 가능</string>
+    <string name="service_state_disable">사용 안 함</string>
+    <string name="service_state_enable">사용</string>
+    <string name="service_state_connecting">연결하는 중</string>
+    <string name="service_state_connected">연결됨</string>
+    <string name="touch_name">CrossMount 터치</string>
+    <string name="touch_msg">현재 <xliff:g id="service_name">%1$s</xliff:g>에 연결됨. 이 영역을 터치하십시오.</string>
+    <string name="disconnect_touch_menu_item">연결을 끊고 종료</string>
+    <string name="exit_touch_menu_item">종료하기만 함</string>
+    <string name="touch_exit_msg"><xliff:g id="service_name">%1$s</xliff:g>에서 연결이 끊어짐.</string>
+    <string name="exit_touch_button">종료</string>
+</resources>

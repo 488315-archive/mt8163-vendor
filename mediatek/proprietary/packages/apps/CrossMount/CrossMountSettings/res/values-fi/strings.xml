@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Käytettävissä olevia laitteita ei löydy. Kytke CrossMount päälle ja yritä uudelleen.</string>
+    <string name="progress_scanning">Hakee</string>
+    <string name="crossmount_enable_menu_item">Ota CrossMount käyttöön</string>
+    <string name="crossmount_refresh_menu_item">Virkistä</string>
+    <string name="rename_device_menu_item">Nimeä tämä laite uudelleen</string>
+    <string name="service_share_menu_item">Palvelun jakaminen</string>
+    <string name="trust_list_menu_item">Hallitse luotettujen luetteloa</string>
+    <string name="crossmount_preference_found_devices">Käytettävissä olevat laitteet</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> voi käyttää yhdistämisen jälkeen seuraavien laitteiden palveluita.</string>
+    <string name="service_sharing_message">Muuta laitteet voivat käyttää seuraavia palveluita, jos sallit sen.</string>
+    <string name="service_category_desc">Laitteesi palvelut</string>
+    <string name="service_is_mounted">Ota käyttöön <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Laitteen <xliff:g id="device_name">%1$s</xliff:g> käyttämä</string>
+    <string name="bluetooth_rename_button">Nimeä uudelleen</string>
+    <string name="share_to_allow_pref">Anna muiden käyttää palvelua.</string>
+    <string name="share_to_category_desc">Valitse jaettava laite</string>
+    <string name="mount_service_category_desc">Laitteen palvelut</string>
+    <string name="disconnect_msg">Katkaistaanko nykyisen palvelun yhteys?</string>
+    <string name="trust_list_category_desc">Luotetut laitteet</string>
+    <string name="trust_list_manage_message_desc">Sallit seuraavien laitteiden käyttää palveluitasi ilman aiempaa vahvistusta. Voit asettaa ne epäluotettaviksi, jos et halua jatkaa.</string>
+    <string name="service_state_occupied">Varattu</string>
+    <string name="service_state_available">Käytettävissä</string>
+    <string name="service_state_disable">Pois käytöstä</string>
+    <string name="service_state_enable">Käytössä</string>
+    <string name="service_state_connecting">Yhdistetään</string>
+    <string name="service_state_connected">Yhdistetty</string>
+    <string name="touch_name">Kosketa CrossMount-kohtaa</string>
+    <string name="touch_msg">Parhaillaan yhdistetty paleluun <xliff:g id="service_name">%1$s</xliff:g>. Kosketa tällä alueella.</string>
+    <string name="disconnect_touch_menu_item">Katkaise yhteys ja lopeta</string>
+    <string name="exit_touch_menu_item">Vain Lopeta</string>
+    <string name="touch_exit_msg">Yhteys palvelusta <xliff:g id="service_name">%1$s</xliff:g> katkaistu.</string>
+    <string name="exit_touch_button">Lopeta</string>
+</resources>

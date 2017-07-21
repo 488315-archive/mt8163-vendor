@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Nem található olyan eszköz, amely rendelkezésre áll. Kapcsolja be a CrossMount funkciót, és próbálkozzon újra.</string>
+    <string name="progress_scanning">Keresés</string>
+    <string name="crossmount_enable_menu_item">CrossMount engedélyezése</string>
+    <string name="crossmount_refresh_menu_item">Frissítés</string>
+    <string name="rename_device_menu_item">Az eszköz átnevezése</string>
+    <string name="service_share_menu_item">Szolgáltatás megosztása</string>
+    <string name="trust_list_menu_item">Megbízhatósági lista kezelése</string>
+    <string name="crossmount_preference_found_devices">Választható eszközök</string>
+    <string name="crossmount_is_visible_message">A(z) <xliff:g id="device_name">%1$s</xliff:g> a következő eszközök szolgáltatásait használhatja, miután csatlakoztatta.</string>
+    <string name="service_sharing_message">Más eszközök a következő szolgáltatásokat használhatják, ha ezt Ön engedélyezi.</string>
+    <string name="service_category_desc">Az eszköz szolgáltatásai</string>
+    <string name="service_is_mounted">A(z) <xliff:g id="service_name">%1$s</xliff:g> felcsatolása</string>
+    <string name="device_mounted_service">A(z) <xliff:g id="device_name">%1$s</xliff:g> használja</string>
+    <string name="bluetooth_rename_button">Átnevezés</string>
+    <string name="share_to_allow_pref">Engedélyezze másoknak a szolgáltatás használatát.</string>
+    <string name="share_to_category_desc">Válasszon eszközt a megosztáshoz</string>
+    <string name="mount_service_category_desc">Az eszköz szolgáltatásai</string>
+    <string name="disconnect_msg">Megszakítja a kapcsolatot a jelenlegi szolgáltatással?</string>
+    <string name="trust_list_category_desc">Eszközök megjelölése megbízhatóként</string>
+    <string name="trust_list_manage_message_desc">Megengedheti, hogy a következő eszközök az Ön előzetes jóváhagyása nélkül használják a szolgáltatásait. Igény szerint törölheti a megbízhatóként való megjelölésüket, ha már nem szeretné engedélyezni a szolgáltatások használatát.</string>
+    <string name="service_state_occupied">Foglalt</string>
+    <string name="service_state_available">Választható</string>
+    <string name="service_state_disable">Letiltva</string>
+    <string name="service_state_enable">Engedélyezve</string>
+    <string name="service_state_connecting">Kapcsolódás</string>
+    <string name="service_state_connected">Csatlakoztatva</string>
+    <string name="touch_name">CrossMount érintése</string>
+    <string name="touch_msg">Jelenleg a következő szolgáltatáshoz csatlakozik: <xliff:g id="service_name">%1$s</xliff:g>. Kérjük, érintse meg ezen a területen.</string>
+    <string name="disconnect_touch_menu_item">Kapcsolat megszüntetése és kilépés</string>
+    <string name="exit_touch_menu_item">Csak kilépés</string>
+    <string name="touch_exit_msg">A(z) <xliff:g id="service_name">%1$s</xliff:g> szolgáltatással megszakadt a kapcsolat.</string>
+    <string name="exit_touch_button">Kilépés</string>
+</resources>

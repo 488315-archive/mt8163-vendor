@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Մատչելի սարքեր չեն գտնվել: Միացրեք CrossMount-ը` կրկին փորձելու համար:</string>
+    <string name="progress_scanning">Որոնում</string>
+    <string name="crossmount_enable_menu_item">Միացնել CrossMount-ը</string>
+    <string name="crossmount_refresh_menu_item">Թարմացնել</string>
+    <string name="rename_device_menu_item">Վերանվանել այս սարքը</string>
+    <string name="service_share_menu_item">Ծառայության համօգտագործում</string>
+    <string name="trust_list_menu_item">Կառավարել վստահության ցուցակը</string>
+    <string name="crossmount_preference_found_devices">Մատչելի սարքեր</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g>-ը կապակցումից հետո կարող է օգտվել հետևյալ սարքերի ծառայություններից:</string>
+    <string name="service_sharing_message">Եթե թույլատրեք, հետևյալ ծառայությունները կարող են օգտագործվել այլ սարքերի կողմից:</string>
+    <string name="service_category_desc">Ձեր սարքի ծառայությունները</string>
+    <string name="service_is_mounted">Միացնել <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Օգտագործվում է <xliff:g id="device_name">%1$s</xliff:g>-ի կողմից</string>
+    <string name="bluetooth_rename_button">Վերանվանել</string>
+    <string name="share_to_allow_pref">Թույլատրել ուրիշներին օգտվել ծառայությունից:</string>
+    <string name="share_to_category_desc">Ընտրեք սարք` համօգտագործելու համար</string>
+    <string name="mount_service_category_desc">Սարքի ծառայությունները</string>
+    <string name="disconnect_msg">Անջատե՞լ ընթացիկ ծառայությունը:</string>
+    <string name="trust_list_category_desc">Վստահված սարքեր</string>
+    <string name="trust_list_manage_message_desc">Դուք հետևյալ սարքերին թույլատրում եք օգտվել ձեր ծառայություններից` առանց ձեր նախնական հաստատման: Կարող եք ետ վերցնել ձեր վստահությունը, եթե այլևս չեք ցանկանում թույլատրել:</string>
+    <string name="service_state_occupied">Զբաղված</string>
+    <string name="service_state_available">Մատչելի</string>
+    <string name="service_state_disable">Անջատված</string>
+    <string name="service_state_enable">Միացված</string>
+    <string name="service_state_connecting">Կապակցում</string>
+    <string name="service_state_connected">Կապակցված</string>
+    <string name="touch_name">CrossMount հպում</string>
+    <string name="touch_msg">Այժմ կապակցված է <xliff:g id="service_name">%1$s</xliff:g> ծառայությանը: Հպեք այս տարածքում:</string>
+    <string name="disconnect_touch_menu_item">Անջատել և ելնել</string>
+    <string name="exit_touch_menu_item">Միայն ելնել</string>
+    <string name="touch_exit_msg">Անջատված է <xliff:g id="service_name">%1$s</xliff:g> ծառայությունից:</string>
+    <string name="exit_touch_button">Ելնել</string>
+</resources>

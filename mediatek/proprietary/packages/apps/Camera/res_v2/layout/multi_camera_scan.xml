@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res/com.android.gallery3d"
+    android:id="@+id/scan_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:visibility="gone"
+    android:background="@android:color/transparent" >
+
+    <com.mediatek.camera.v2.ui.UIRotateLayout
+        android:id="@+id/scan_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:splitMotionEvents="false" >
+
+        <com.mediatek.camera.v2.stream.multicamera.ui.ScanViewContainer
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#af000000"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/dismiss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:contentDescription="@string/accessibility_switch_to_camera"
+                android:src="@drawable/ic_crossmount_cancel_scan" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:paddingTop="12dp"
+                android:text="@string/multicamera_title"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/userGuide1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_centerInParent="true"
+                android:paddingBottom="12dp"
+                android:paddingLeft="56dp"
+                android:paddingRight="56dp"
+                android:paddingTop="12dp"
+                android:text="@string/multicamera_connect_hint"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <FrameLayout
+                android:id="@+id/device_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userGuide1"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp" >
+
+                <HorizontalScrollView
+                    android:id="@+id/scroll_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginRight="56dp"
+                    android:scrollbars="none" >
+
+                    <LinearLayout
+                        android:id="@+id/availableDevices"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <ProgressBar
+                    android:id="@+id/scan_progress"
+                    style="?android:attr/progressBarStyleLargeInverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/userGuide2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/device_container"
+                android:layout_centerInParent="true"
+                android:paddingBottom="12dp"
+                android:paddingLeft="56dp"
+                android:paddingRight="56dp"
+                android:paddingTop="12dp"
+                android:text="@string/multicamera_NFC_hint"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:visibility="gone" />
+        </com.mediatek.camera.v2.stream.multicamera.ui.ScanViewContainer>
+    </com.mediatek.camera.v2.ui.UIRotateLayout>
+
+</FrameLayout>

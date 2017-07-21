@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Δεν βρέθηκαν διαθέσιμες συσκευές. Ενεργοποιήστε το CrossMount για να δοκιμάσετε ξανά.</string>
+    <string name="progress_scanning">Αναζήτηση</string>
+    <string name="crossmount_enable_menu_item">Ενεργοποιήστε το CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Ανανέωση</string>
+    <string name="rename_device_menu_item">Μετονομασία αυτής της συσκευής</string>
+    <string name="service_share_menu_item">Κοινή χρήση υπηρεσιών</string>
+    <string name="trust_list_menu_item">Διαχείριση αξιόπιστης λίστας</string>
+    <string name="crossmount_preference_found_devices">Διαθέσιμες συσκευές</string>
+    <string name="crossmount_is_visible_message">Η <xliff:g id="device_name">%1$s</xliff:g> μπορεί να χρησιμοποιεί υπηρεσίες των παρακάτω συσκευών μετά τη σύνδεση.</string>
+    <string name="service_sharing_message">Οι παρακάτω υπηρεσίες μπορούν να χρησιμοποιούνται από άλλες συσκευές αν το επιτρέψετε.</string>
+    <string name="service_category_desc">Υπηρεσίες της συσκευής σας</string>
+    <string name="service_is_mounted">Σύνδεση <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Χρησιμοποιείται από <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Μετονομασία</string>
+    <string name="share_to_allow_pref">Επιτρέψτε σε χρήστες να χρησιμοποιούν την υπηρεσία.</string>
+    <string name="share_to_category_desc">Επιλέξτε μια συσκευή για να μοιραστείτε</string>
+    <string name="mount_service_category_desc">Υπηρεσίες της συσκευής</string>
+    <string name="disconnect_msg">Να γίνει αποσύνδεση της τρέχουσας υπηρεσίας;</string>
+    <string name="trust_list_category_desc">Αξιόπιστες συσκευές</string>
+    <string name="trust_list_manage_message_desc">Επιτρέπετε στις παρακάτω συσκευές να χρησιμοποιούν τις υπηρεσίες σας χωρίς να έχει προηγηθεί επιβεβαίωση από εσάς. Μπορείτε να τις καταστήσετε μη αξιόπιστες εάν δεν τις θέλετε άλλο.</string>
+    <string name="service_state_occupied">Κατειλημμένο</string>
+    <string name="service_state_available">Διαθέσιμο</string>
+    <string name="service_state_disable">Απενεργοποιημένο</string>
+    <string name="service_state_enable">Ενεργοποιημένο</string>
+    <string name="service_state_connecting">Συνδέεται</string>
+    <string name="service_state_connected">Συνδεδεμένο</string>
+    <string name="touch_name">CrossMount αφή</string>
+    <string name="touch_msg">Προς το παρόν συνδεδεμένο στη <xliff:g id="service_name">%1$s</xliff:g>. Αγγίξτε σε αυτή την περιοχή</string>
+    <string name="disconnect_touch_menu_item">Να γίνει αποσύνδεση και έξοδος</string>
+    <string name="exit_touch_menu_item">Μόνο έξοδος</string>
+    <string name="touch_exit_msg">Αποσυνδέθηκε από <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Έξοδος</string>
+</resources>

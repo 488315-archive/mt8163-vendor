@@ -1,0 +1,21 @@
+Library of Drm features, prebuild libwvlevel3.a for arm architecture.
+
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+libwvlevel3 will be used by drm, it is for arm architecture.
+Without them, widevine drm will not work in arm architecture.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+and the following libs from MediaTek:
+
+All source/dependency modules of this module are already put in
+'system/lib' folder.
+
+HOW TO USE IT?
+==============
+libwvlevel3 provides interface of drm basic functions for arm architecture, it is built library.

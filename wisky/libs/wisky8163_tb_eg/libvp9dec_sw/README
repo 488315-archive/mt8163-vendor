@@ -1,0 +1,28 @@
+Library of MTK vp9 codec driver.
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+libvp9dec_sw contains MediaTek developed vp9 software video decoder related functions.
+Without them, vp9 video playback will not work¡¨
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. llibcutils libc.so
+
+and the following libs from MediaTek:
+NA
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+
+Provide vp9 decoder api invoked by common decoder interface,
+those api are all internal-used and are invisible to customer.
+
+All the source code of this library were written by MediaTek co..

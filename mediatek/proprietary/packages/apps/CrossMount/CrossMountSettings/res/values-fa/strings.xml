@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">هیچ دستگاهی موجود نیست. برای تلاش مجدد، CrossMount را روشن کنید.</string>
+    <string name="progress_scanning">جستجو</string>
+    <string name="crossmount_enable_menu_item">CrossMount را فعال کنید</string>
+    <string name="crossmount_refresh_menu_item">نوسازی</string>
+    <string name="rename_device_menu_item">نام این دستگاه را تغییر دهید</string>
+    <string name="service_share_menu_item">اشتراک گذاری سرویس</string>
+    <string name="trust_list_menu_item">مدیریت لیست مطمئن</string>
+    <string name="crossmount_preference_found_devices">دستگاه های موجود</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> می تواند بعد از اتصال، از سرویس های دستگاه های زیر استفاده کند.</string>
+    <string name="service_sharing_message">سرویس های زیر در صورتی که مجاز باشند می توانند توسط سایر دستگاه ها مورد استفاده قرار بگیرند.</string>
+    <string name="service_category_desc">سرویس های دستگاه شما</string>
+    <string name="service_is_mounted">اتصال <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">استفاده شده توسط <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">تغییر نام</string>
+    <string name="share_to_allow_pref">سایرین اجازه دارند از این سرویس استفاده کنند.</string>
+    <string name="share_to_category_desc">دستگاهی را برای اشتراک گذاری انتخاب کنید</string>
+    <string name="mount_service_category_desc">سرویس های دستگاه</string>
+    <string name="disconnect_msg">سرویس فعلی قطع شود؟</string>
+    <string name="trust_list_category_desc">دستگاه های مطمئن</string>
+    <string name="trust_list_manage_message_desc">به سرویس های زیر اجازه می دهید بدون تأیید اولیه از دستگاه های شما استفاده کنند. هرگاه مایل بودید می توانید آنها را از حالت مطمئن خارج کنید.</string>
+    <string name="service_state_occupied">دریافت شد</string>
+    <string name="service_state_available">موجود</string>
+    <string name="service_state_disable">غیرفعال</string>
+    <string name="service_state_enable">فعال</string>
+    <string name="service_state_connecting">در حال برقراری اتصال</string>
+    <string name="service_state_connected">متصل شد</string>
+    <string name="touch_name">CrossMount لمسی</string>
+    <string name="touch_msg">فعلاً به <xliff:g id="service_name">%1$s</xliff:g> متصل شده اید. لطفاً این قسمت را لمس کنید.</string>
+    <string name="disconnect_touch_menu_item">قطع اتصال و خروج</string>
+    <string name="exit_touch_menu_item">فقط خروج</string>
+    <string name="touch_exit_msg">اتصال از <xliff:g id="service_name">%1$s</xliff:g> قطع شد.</string>
+    <string name="exit_touch_button">خروج</string>
+</resources>

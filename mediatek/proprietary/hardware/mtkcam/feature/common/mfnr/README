@@ -1,0 +1,26 @@
+MFNR core middleware
+
+
+WHAT IT DOES?
+=============
+
+An platform-indepent MFNR core and platform-dependent modules that do mult-frame
+noise reduction.
+
+
+HOW IT WAS BUILT?
+==================
+
+It needs the following libs from AOSP:
+1. libutils.so
+2. libcutils.so
+
+
+HOW TO USE IT?
+==============
+
+All modules (e.g. Camera HAL or an unit test) should use
+IMfllCore as the public interface to talk with MFNR core.
+
+All the source code of this program were written by MediaTek co..
+

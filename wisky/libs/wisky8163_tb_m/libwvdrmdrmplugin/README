@@ -1,0 +1,21 @@
+Library of Drm features, including classic drm widevine plugin.
+
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+libwvdrmdrmplugin will be used by classic drm, it contains api for drmmanager.
+Without them, classic drm will not work.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+and the following libs from MediaTek:
+
+All source/dependency modules of this module are already put in
+'system/lib' folder.
+
+HOW TO USE IT?
+==============
+libwvdrmdrmplugin provides interface of classic drm, it is built library.

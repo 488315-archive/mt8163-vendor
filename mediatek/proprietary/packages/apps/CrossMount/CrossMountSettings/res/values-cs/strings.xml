@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Nebyla nalezena žádná dostupná zařízení. Zapněte CrossMount a opakujte akci.</string>
+    <string name="progress_scanning">Vyhledávání</string>
+    <string name="crossmount_enable_menu_item">Aktivovat CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Aktualizovat</string>
+    <string name="rename_device_menu_item">Přejmenovat toto zařízení</string>
+    <string name="service_share_menu_item">Sdílení služby</string>
+    <string name="trust_list_menu_item">Správa seznamu důvěryhodnosti</string>
+    <string name="crossmount_preference_found_devices">Dostupná zařízení</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> může po připojení využívat služby následujících zařízení.</string>
+    <string name="service_sharing_message">Ostatní zařízení mohou používat následující služby, pokud jim to dovolíte.</string>
+    <string name="service_category_desc">Služby vašeho zařízení</string>
+    <string name="service_is_mounted">Připojit <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Uživatel <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Přejmenovat</string>
+    <string name="share_to_allow_pref">Povolit ostatním používat tuto službu.</string>
+    <string name="share_to_category_desc">Zvolit zařízení pro sdílení</string>
+    <string name="mount_service_category_desc">Služby zařízení</string>
+    <string name="disconnect_msg">Odpojit aktuální službu?</string>
+    <string name="trust_list_category_desc">Důvěřovat zařízením</string>
+    <string name="trust_list_manage_message_desc">Povolujete následujícím zařízením používat vaše služby bez vašeho předchozího potvrzení. Můžete jim kdykoli přestat důvěřovat.</string>
+    <string name="service_state_occupied">Obsazeno</string>
+    <string name="service_state_available">Volné</string>
+    <string name="service_state_disable">Deaktivováno</string>
+    <string name="service_state_enable">Aktivováno</string>
+    <string name="service_state_connecting">Připojování</string>
+    <string name="service_state_connected">Připojeno</string>
+    <string name="touch_name">Dotek CrossMount</string>
+    <string name="touch_msg">Aktuálně připojeno k <xliff:g id="service_name">%1$s</xliff:g>. Prosím dotkněte se této plochy.</string>
+    <string name="disconnect_touch_menu_item">Odpojit a ukončit</string>
+    <string name="exit_touch_menu_item">Pouze ukončit</string>
+    <string name="touch_exit_msg">Odpojeno od <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Konec</string>
+</resources>

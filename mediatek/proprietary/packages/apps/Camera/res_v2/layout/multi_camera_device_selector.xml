@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.camera.v2.stream.multicamera.ui.SelectorItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true" >
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true" >
+
+            <ImageView
+                android:id="@+id/selector_icon"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/progress_background"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_crossmount_bg"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/connect_progress"
+                style="?android:attr/progressBarStyleInverse"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/remote_name"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/accessibility_switch_to_camera"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+</com.mediatek.camera.v2.stream.multicamera.ui.SelectorItem>

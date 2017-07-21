@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">لا يوجد أجهزة متاحة. قم بتشغيل CrossMount للمحاولة مرة أخرى.</string>
+    <string name="progress_scanning">جارٍ البحث</string>
+    <string name="crossmount_enable_menu_item">تمكين CrossMount</string>
+    <string name="crossmount_refresh_menu_item">تحديث</string>
+    <string name="rename_device_menu_item">إعادة تسمية هذا الجهاز</string>
+    <string name="service_share_menu_item">مشاركة الجهاز</string>
+    <string name="trust_list_menu_item">إدارة قائمة الثقات</string>
+    <string name="crossmount_preference_found_devices">الأجهزة المتاحة</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> can يمكنه استخدام الأجهزة التالية بعد الاتصال.</string>
+    <string name="service_sharing_message">يمكن للأجهزة الأخرى استخدام الخدمات التالية إن سمحت لها.</string>
+    <string name="service_category_desc">خدمات الجهاز</string>
+    <string name="service_is_mounted">تركيب <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">مستخدم بواسطة <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">إعادة تسمية</string>
+    <string name="share_to_allow_pref">اسمح للغير باستخدام هذه الخدمة.</string>
+    <string name="share_to_category_desc">اختر جهاز للمشاركة</string>
+    <string name="mount_service_category_desc">خدمات الجهاز</string>
+    <string name="disconnect_msg">قطع الاتصال بالخدمة الحالية؟</string>
+    <string name="trust_list_category_desc">وثوق بالأجهزة</string>
+    <string name="trust_list_manage_message_desc">تسمح للأجهزة التالية باستخدام خدماتك دون تأكيد مسبق منك. ويمكن إيقاف الثقة بها إن كنت لا تريد استخدامها لهذه الخدمات بعد ذلك.</string>
+    <string name="service_state_occupied">مشغول</string>
+    <string name="service_state_available">متاح</string>
+    <string name="service_state_disable">معطل</string>
+    <string name="service_state_enable">ممكَّن</string>
+    <string name="service_state_connecting">اتصال</string>
+    <string name="service_state_connected">متصل</string>
+    <string name="touch_name">CrossMount باللمس</string>
+    <string name="touch_msg">متصل حاليا بخدمة <xliff:g id="service_name">%1$s</xliff:g>. يرجى اللمس في هذه المنطقة.</string>
+    <string name="disconnect_touch_menu_item">قطع الاتصال والخروج</string>
+    <string name="exit_touch_menu_item">خروج فقط</string>
+    <string name="touch_exit_msg">غير متصل بخدمة <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">إنهاء</string>
+</resources>

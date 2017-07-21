@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Tiada peranti tersedia ditemui. Hidupkan CrossMount untuk mencuba lagi.</string>
+    <string name="progress_scanning">Mencari</string>
+    <string name="crossmount_enable_menu_item">Dayakan CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Segar semula</string>
+    <string name="rename_device_menu_item">Namakan semula peranti ini</string>
+    <string name="service_share_menu_item">Perkongsian perkhidmatan</string>
+    <string name="trust_list_menu_item">Urus senarai kepercayaan</string>
+    <string name="crossmount_preference_found_devices">Peranti tersedia</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> boleh menggunakan perkhidmatan peranti berikut selepas sambungan.</string>
+    <string name="service_sharing_message">Perkhidmatan berikut boleh digunakan oleh peranti lain jika anda membenarkannya.</string>
+    <string name="service_category_desc">Perkhidmatan peranti anda</string>
+    <string name="service_is_mounted">Pasang <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Digunakan oleh <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Namakan semula</string>
+    <string name="share_to_allow_pref">Benarkan orang lain menggunakan perkhidmatan.</string>
+    <string name="share_to_category_desc">Pilih peranti untuk dikongsikan</string>
+    <string name="mount_service_category_desc">Perkhidmatan peranti</string>
+    <string name="disconnect_msg">Putuskan sambungan perkhidmatan semasa?</string>
+    <string name="trust_list_category_desc">Percaya peranti</string>
+    <string name="trust_list_manage_message_desc">Anda membenarkan peranti berikut menggunakan perkhidmatan anda tanpa pengesahan anda dahulu. Anda boleh tidak mempercayainya jika anda tidak mahukannya lagi.</string>
+    <string name="service_state_occupied">Digunakan</string>
+    <string name="service_state_available">Tersedia</string>
+    <string name="service_state_disable">Dinyahdayakan</string>
+    <string name="service_state_enable">Didayakan</string>
+    <string name="service_state_connecting">Menyambung</string>
+    <string name="service_state_connected">Bersambung</string>
+    <string name="touch_name">CrossMount sentuh</string>
+    <string name="touch_msg">Sedang bersambung ke <xliff:g id="service_name">%1$s</xliff:g>. Sila Sentuh dalam kawasan ini.</string>
+    <string name="disconnect_touch_menu_item">Putuskan sambungan dan keluar</string>
+    <string name="exit_touch_menu_item">Keluar sahaja</string>
+    <string name="touch_exit_msg">Diputuskan sambungan daripada <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Keluar</string>
+</resources>

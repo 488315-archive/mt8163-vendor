@@ -1,0 +1,15 @@
+
+WHAT IT DOES?
+=============
+With Low Cost Android + large size FAT (usb/sdcard/...), we may have limit memory to run the original fsck_msdos on them.
+The MTK fsck_msdos_mtk design a new approach to largely reduce the memory foot print but with the increase of the checking time.
+
+HOW IT WAS BUILT?
+==================
+Turn on the feature at corresponding ProjectConfig.mk as following and rebuild.
+MTK_FSCK_MSDOS_MTK=yes 
+
+
+HOW TO USE IT?
+==============
+After the rebuild, VOLD will use fsck_msdos_mtk to check FAT partition automatically

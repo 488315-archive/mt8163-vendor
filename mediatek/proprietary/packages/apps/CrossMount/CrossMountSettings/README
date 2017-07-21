@@ -1,0 +1,28 @@
+WHAT IT DOES?
+=============
+MTK feature, it's used to set the configuration about CrossMount.
+Devices can be connected by CrossMount. If device A mounted device B's some service , such 
+as camera , A can use B's camera.
+
+
+HOW IT WAS BUILT?
+==================
+It's dependent on the  jar library of com.mediatek.crossmount.adapter/discovery
+and it's an application in Launcher.
+
+
+HOW TO USE IT?
+==============
+1) entrance: Launcher--> CrossMount
+
+2) share service to other devices: CrossMount --> 
+Menu "Service sharing"
+
+3) mount some services from other device: 
+ click the available devices list in the main entrance
+ 
+4) trust list: like "White name list". 
+ 
+          
+
+All the source code of this module were written by MediaTek co..

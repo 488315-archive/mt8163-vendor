@@ -1,0 +1,21 @@
+<secureboot-config version="1.0">
+	<general>
+		<codebase>/proj/mtk07076/git/alps-mp-m0.mp8</codebase>
+		<company>mediatek</company>
+		<platform>mt8127</platform>
+		<project>tb8127p4</project>
+		<scatter>MT8127_Android_scatter.txt</scatter>
+		<storage-type>EMMC</storage-type>
+	</general>
+	<feature>
+		<hardware-secure-ctrl Enable_DAA="false" Enable_SBC="false" Enable_SLA="false" />
+		<software-secure-ctrl Disable_BROM_MODE="false" />
+	</feature>
+	<keyfile>
+		<sbc_key>AUTO</sbc_key>
+		<daa_key>AUTO</daa_key>
+		<sla_key>AUTO</sla_key>
+		<verified_key>AUTO</verified_key>
+		<img_key>AUTO</img_key>
+	</keyfile>
+</secureboot-config>

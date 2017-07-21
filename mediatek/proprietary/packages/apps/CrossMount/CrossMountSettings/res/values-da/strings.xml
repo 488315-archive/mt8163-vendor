@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">Der blev ikke fundet nogen tilgængelige enheder. Tænd for CrossMount for at prøve igen.</string>
+    <string name="progress_scanning">Søger</string>
+    <string name="crossmount_enable_menu_item">Aktivér CrossMount</string>
+    <string name="crossmount_refresh_menu_item">Opdater</string>
+    <string name="rename_device_menu_item">Omdøb denne enhed</string>
+    <string name="service_share_menu_item">Deling af tjeneste</string>
+    <string name="trust_list_menu_item">Administrer tillidsliste</string>
+    <string name="crossmount_preference_found_devices">Tilgængelige enheder</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> kan bruge tjenester fra følgende enheder efter at have oprettet forbindelse.</string>
+    <string name="service_sharing_message">Følgende tjenester kan bruges af andre enheder, hvis du tillader det.</string>
+    <string name="service_category_desc">Tjenester på din enhed</string>
+    <string name="service_is_mounted">Montér <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">Bruges af <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">Omdøb</string>
+    <string name="share_to_allow_pref">Tillad at andre bruger tjenesten.</string>
+    <string name="share_to_category_desc">Vælg en enhed, der skal deles</string>
+    <string name="mount_service_category_desc">Enhedens tjenester</string>
+    <string name="disconnect_msg">Afbryd den aktuelle tjeneste?</string>
+    <string name="trust_list_category_desc">Hav tillid til enheder</string>
+    <string name="trust_list_manage_message_desc">Du tillader følgende enheder at bruge dine tjenester uden din bekræftelse. Du kan ophæve tilliden til dem, hvis du ikke ønsker dette længere.</string>
+    <string name="service_state_occupied">Optaget</string>
+    <string name="service_state_available">Tilgængelig</string>
+    <string name="service_state_disable">Deaktiveret</string>
+    <string name="service_state_enable">Aktiveret</string>
+    <string name="service_state_connecting">Oprette forbindelse</string>
+    <string name="service_state_connected">Forbundet</string>
+    <string name="touch_name">CrossMount tryk</string>
+    <string name="touch_msg">Har for øjeblikket forbindelse til <xliff:g id="service_name">%1$s</xliff:g>. Tryk i dette område.</string>
+    <string name="disconnect_touch_menu_item">Afbryd og forlad</string>
+    <string name="exit_touch_menu_item">Forlad alene</string>
+    <string name="touch_exit_msg">Forbindelse afbrudt fra <xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">Forlad</string>
+</resources>

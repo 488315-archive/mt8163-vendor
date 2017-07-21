@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="group_invitation_received">%s邀请您加入群聊</string>
+    <string name="group_participant_join">%s加入群</string>
+    <string name="group_participant_left">%s离开群</string>
+    <string name="group_participant_removed">%s被踢出群</string>
+    <string name="group_chairmen_transferred">群管理员变为 %s</string>
+    <string name="group_subject_modified">群名称变为 %s</string>
+    <string name="group_me_removed">我被%s踢出群</string>
+    <string name="group_aborted">群被解散</string>
+    <string name="group_i_quit">我退出群聊</string>
+    <string name="group_i_become_chairmen">我变为群管理员</string>
+    <string name="group_invite_to_group">邀请%s加入群聊</string>
+</resources>

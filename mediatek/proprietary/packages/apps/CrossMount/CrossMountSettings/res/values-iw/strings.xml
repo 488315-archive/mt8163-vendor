@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">לא נמצאו מכשירים זמינים. הפעל את CrossMount כדי לנסות שוב.</string>
+    <string name="progress_scanning">מחפש</string>
+    <string name="crossmount_enable_menu_item">הפעל את CrossMount</string>
+    <string name="crossmount_refresh_menu_item">רענן</string>
+    <string name="rename_device_menu_item">שנה את שם המכשיר הזה</string>
+    <string name="service_share_menu_item">שיתוף שירות</string>
+    <string name="trust_list_menu_item">נהל רשימת מכשירים מהימנים</string>
+    <string name="crossmount_preference_found_devices">מכשירים זמינים</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> יכול להשתמש בשירותים של המכשירים האלה לאחר החיבור.</string>
+    <string name="service_sharing_message">מכשירים אחרים יכולים להשתמש בשירותים האלה אם תתיר זאת.</string>
+    <string name="service_category_desc">שירותים של המכשיר שלך</string>
+    <string name="service_is_mounted">הכנס את <xliff:g id="service_name">%1$s</xliff:g></string>
+    <string name="device_mounted_service">משמש על ידי <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="bluetooth_rename_button">שנה שם</string>
+    <string name="share_to_allow_pref">מתיר לאחרים להשתמש בשירות.</string>
+    <string name="share_to_category_desc">בחר מכשיר לשיתוף</string>
+    <string name="mount_service_category_desc">שירותים של המכשיר</string>
+    <string name="disconnect_msg">לנתק את השירות הנוכחי?</string>
+    <string name="trust_list_category_desc">מכשירים מהימנים</string>
+    <string name="trust_list_manage_message_desc">אתה מתיר למכשירים האלה להשתמש בשירותים שלך ללא אישור קודם מצדך. תוכל להסירם מרשימת המכשירים המהימנים אם אין ברצונך להתיר להם זאת.</string>
+    <string name="service_state_occupied">תפוס</string>
+    <string name="service_state_available">זמין</string>
+    <string name="service_state_disable">מושבת</string>
+    <string name="service_state_enable">מופעל</string>
+    <string name="service_state_connecting">מתחבר</string>
+    <string name="service_state_connected">מחובר</string>
+    <string name="touch_name">CrossMount מגע</string>
+    <string name="touch_msg">מחובר כעת ל-<xliff:g id="service_name">%1$s</xliff:g>. גע באזור זה.</string>
+    <string name="disconnect_touch_menu_item">התנתק וצא</string>
+    <string name="exit_touch_menu_item">יציאה בלבד</string>
+    <string name="touch_exit_msg">מנותק מ-<xliff:g id="service_name">%1$s</xliff:g>.</string>
+    <string name="exit_touch_button">צא</string>
+</resources>

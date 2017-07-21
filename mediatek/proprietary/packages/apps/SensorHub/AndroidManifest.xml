@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.sensorhub.ui"
+    android:versionCode="2"
+    android:versionName="2.0">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="com.mediatek.permission.WAKE_DEVICE_SENSORHUB" />
+
+    <application
+        android:name="com.mediatek.sensorhub.service.SensorhubApplication"
+        android:icon="@drawable/icon"
+        android:label="@string/sensor_hub_entry"
+        android:theme="@android:style/Theme.Material.Settings"
+        android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc">
+       <activity
+            android:name="SensorSettings"
+            android:label="@string/sensor_hub_entry"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="OrginalGesturesActivity"
+            android:label="@string/orginal_gesture_title"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="PedometerSensorActivity"
+            android:label="@string/pedometer_title"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ActivitySensorActivity"
+            android:label="@string/activity_title"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="InPocketSensorActivity"
+            android:label="@string/in_pocket_title"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="SmdSensorActivity"
+            android:label="@string/smd_title"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="CompositeSensorActivity"
+            android:label="@string/composite_sensor_title"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="PdrSensorActivity"
+            android:label="@string/pdr_title"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.mediatek.sensorhub.service.SensorEventListenerService" />
+    </application>
+</manifest>

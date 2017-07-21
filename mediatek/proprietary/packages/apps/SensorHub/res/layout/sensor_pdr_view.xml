@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingStart="8dip"
+    android:paddingEnd="?android:attr/scrollbarSize">
+    <TextView
+            android:text="@string/pdr_height_title"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp" />
+    <EditText
+            android:id="@+id/pdr_height"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:inputType="number" />
+    <TextView
+            android:text="@string/pdr_weight_title"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp" />
+    <EditText
+            android:id="@+id/pdr_weight"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:inputType="number" />
+    <TextView
+            android:text="@string/pdr_gender_title"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp" />
+    <EditText
+            android:id="@+id/pdr_gender"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:inputType="number" />
+    <TextView
+            android:text="@string/pdr_step_len_title"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp" />
+    <EditText
+            android:id="@+id/pdr_step_len"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:inputType="number" />
+    <Button
+            android:id="@+id/set"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/sensor_set_button" />
+    <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:text="@string/pdr_distance_title" />
+    <EditText
+            android:id="@+id/pdr_distance"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:inputType="number" />
+
+    <TextView
+            android:id="@+id/pdr_step_title"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:text="@string/pdr_step_title" />
+
+    <TextView
+            android:id="@+id/pdr_step_len"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:text="@string/pdr_step_len" />
+
+    <Button
+            android:id="@+id/calc_start_stop"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/calc_start_title" />
+
+</LinearLayout>

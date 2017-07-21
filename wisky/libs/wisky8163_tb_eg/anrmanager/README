@@ -1,0 +1,26 @@
+This module is ANR manager.
+This library is pre-built by MediaTek internally.
+
+WHAT IT DOES?
+=============
+The purpose of ANR manager is to do the following functionality.
+1. Key dispatching timeout ANR predump
+2. Service timeout ANR predump
+3. Broadcast timeout ANR predump
+4. Binder monitor/watchdog
+5. Precise CPU usage measurement
+6. Enable/disable ANR mechanism from adb command
+7. Zram thrashing logging mechanism
+8. Multi-thread RTT dump
+
+HOW IT WAS BUILT?
+==================
+1. framework.jar needs to be built in advance.
+2. mmm vendor/mediatek/proprietary/protect/frameworks/base/anrmanager
+
+HOW TO USE IT?
+==============
+ANR manager should not be used directly by an application developer.
+It is used by AMS(activity manager service) to have some ANR mechanisms for debugging.
+
+The majority of source code for this library were written by MediaTek.

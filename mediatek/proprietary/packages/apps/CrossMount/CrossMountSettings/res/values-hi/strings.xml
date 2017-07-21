@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">कोई उपलब्ध उपकरण नहीं मिला। पुनः प्रयास करने के लिए CrossMount चालू करें।</string>
+    <string name="progress_scanning">खोज रहा है</string>
+    <string name="crossmount_enable_menu_item">CrossMount सक्षम करें</string>
+    <string name="crossmount_refresh_menu_item">रीफ्रैश</string>
+    <string name="rename_device_menu_item">इस उपकरण का नाम बदलें</string>
+    <string name="service_share_menu_item">सेवा साझाकरण</string>
+    <string name="trust_list_menu_item">भरोसा सूची प्रबंधित करें</string>
+    <string name="crossmount_preference_found_devices">उपलब्ध उपकरण</string>
+    <string name="crossmount_is_visible_message"><xliff:g id="device_name">%1$s</xliff:g> कनेक्शन के बाद निम्नलिखित उपकरणों की सेवाओं का उपयोग कर सकता है।</string>
+    <string name="service_sharing_message">दूसरे उपकरण निम्नलिखित सेवाओं का उपयोग कर सकते हैं यदि आप इसकी अनुमति दें।</string>
+    <string name="service_category_desc">आपके उपकरण की सेवाएँ</string>
+    <string name="service_is_mounted"><xliff:g id="service_name">%1$s</xliff:g> माउंट करें</string>
+    <string name="device_mounted_service"><xliff:g id="device_name">%1$s</xliff:g> द्वारा प्रयुक्त</string>
+    <string name="bluetooth_rename_button">पुनर्नामांकन</string>
+    <string name="share_to_allow_pref">दूसरों को सेवा का उपयोग करने की अनुमति दें।</string>
+    <string name="share_to_category_desc">साझा करने के लिए एक उपकरण चुनें</string>
+    <string name="mount_service_category_desc">उपकरण की सेवाएँ</string>
+    <string name="disconnect_msg">वर्तमान सेवा डिस्कनेक्ट करें?</string>
+    <string name="trust_list_category_desc">भरोसा वाले उपकरण</string>
+    <string name="trust_list_manage_message_desc">आप निम्नलिखित उपकरणों को आपकी सेवाओं का उपयोग आपकी पुष्टि के बगैर करने देते हैं। अगर आप उन्हें ऐसा नहीं करने देना चाहते हैं तो आप उन पर संदेह कर सकते हैं।</string>
+    <string name="service_state_occupied">व्यस्त</string>
+    <string name="service_state_available">उपलब्ध</string>
+    <string name="service_state_disable">अक्षम</string>
+    <string name="service_state_enable">सक्षम</string>
+    <string name="service_state_connecting">कनेक्ट हो रहा है</string>
+    <string name="service_state_connected">कनेक्ट हो गया है</string>
+    <string name="touch_name">CrossMount स्पर्श करें</string>
+    <string name="touch_msg">वर्तमान में <xliff:g id="service_name">%1$s</xliff:g> से कनेक्ट है। कृपया इस क्षेत्र में स्पर्श करें।</string>
+    <string name="disconnect_touch_menu_item">डिस्कनेक्ट करें और बाहर निकलें</string>
+    <string name="exit_touch_menu_item">केवल निकास</string>
+    <string name="touch_exit_msg"><xliff:g id="service_name">%1$s</xliff:g> से डिस्कनेक्ट हुआ।</string>
+    <string name="exit_touch_button">निकास</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="crossmount_no_devices_found">未在附近找到可用设备。开启CrossMount再试。</string>
+    
+    <string name="progress_scanning">正在搜索</string>
+         
+    <string name="crossmount_enable_menu_item">开启CrossMount</string>
+    <string name="crossmount_refresh_menu_item">刷新</string>
+    <string name="rename_device_menu_item">本设备重命名</string>
+    <string name="service_share_menu_item">分享本设备服务</string>
+    <string name="trust_list_menu_item">管理信任列表</string>
+     
+    <string name="crossmount_preference_found_devices">可用设备</string>
+    <string name="crossmount_is_visible_message">建立连线后，<xliff:g id="device_name">%1$s</xliff:g>可使用如下设备的服务。</string>
+
+    <string name="service_sharing_message">下列本端服务可提供给其他设备使用。</string>
+    <string name="service_category_desc">本端服务</string>
+    
+   <string name="service_is_mounted">挂载<xliff:g id="service_name">%1$s</xliff:g></string>
+   <string name="device_mounted_service">提供给<xliff:g id="device_name">%1$s</xliff:g>使用</string>
+    
+   <string name="bluetooth_rename_button">重命名</string>
+   
+   <string name="share_to_allow_pref">允许其他设备使用本服务。</string>
+   <string name="share_to_category_desc">选择设备进行分享</string>
+   
+   <string name="mount_service_category_desc">设备能力</string>
+   <string name="disconnect_msg">断开当前的服务连接吗?</string>
+ 
+   <string name="trust_list_category_desc">信任的设备</string>
+   <string name="trust_list_manage_message_desc">如下设备可直接使用你的本端服务,无需通过你的确认,可以通过取消信任来修改此种特权。</string>
+   
+   <!-- service state -->
+   <string name="service_state_occupied">被其他设备占用</string>
+   <string name="service_state_available">可用</string>   
+   <string name="service_state_disable">不允许使用</string>
+   <string name="service_state_enable">允许使用</string>
+   <string name="service_state_connecting">正在连接</string>
+   <string name="service_state_connected">已连接</string>
+   
+   <!-- touch  -->
+   <string name="touch_name">CrossMount触摸</string>
+   <string name="touch_msg">已连接到<xliff:g id="service_name">%1$s</xliff:g>请在此区域内触摸。</string>
+   <string name="disconnect_touch_menu_item">断开连接并退出</string>
+   <string name="exit_touch_menu_item">仅退出</string>
+   <string name="touch_exit_msg">和<xliff:g id="service_name">%1$s</xliff:g>的连接已断开。</string>
+   <string name="exit_touch_button">退出</string>
+</resources>

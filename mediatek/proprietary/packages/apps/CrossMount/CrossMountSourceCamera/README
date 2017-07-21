@@ -1,0 +1,15 @@
+WHAT IT DOES?
+=============
+The purpose of this APK is to provide CrossMount source preview/capture result.
+
+HOW IT WAS BUILT?
+==================
+It's dependent on the  jar library of com.mediatek.crossmount.adapter.
+
+[Build Method]
+mmm vendor/mediatek/proprietary/packages/apps/CrossMount/adapter
+
+HOW TO USE IT?
+==============
+It is a apk and will be triggered when CrossMount sink part launch.
+

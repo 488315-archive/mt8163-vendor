@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <com.mediatek.camera.v2.stream.multicamera.ui.DeviceTagView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/device_list1"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+          >
+     <LinearLayout 
+         android:layout_width="96dp"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:id="@+id/list_wrapper"
+         android:gravity="right"
+          >
+    <TextView 
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:background="#222222"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:paddingLeft="6dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingRight="6dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:id="@+id/current_device1"
+        />
+    <ListView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:dividerHeight="1dp"
+        android:divider="#333333"
+        android:visibility="gone"
+        android:background="@android:color/transparent"
+        android:id="@+id/listview"
+         ></ListView>
+    <TextView 
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:background="#222222"
+        android:textSize="16sp"
+        android:paddingLeft="6dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingRight="6dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:id="@+id/current_device2"
+        />
+    </LinearLayout>
+</com.mediatek.camera.v2.stream.multicamera.ui.DeviceTagView>

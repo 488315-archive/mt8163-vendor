@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+    <TextView android:id="@+id/cm_sensor_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/cm_sensor_title" />"
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cm_sensor_gyro_check_box"
+        android:layout_below="@+id/cm_sensor_acc_check_box"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="37dp" />
+
+        <RadioGroup
+        android:id="@+id/cm_sensor_rateRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/cm_sensor_fastest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cm_sensor_fastest" />
+
+        <RadioButton
+            android:id="@+id/cm_sensor_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cm_sensor_game" />
+
+        <RadioButton
+            android:id="@+id/cm_sensor_ui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cm_sensor_ui" />
+
+        <RadioButton
+            android:id="@+id/cm_sensor_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cm_sensor_normal" />
+        </RadioGroup>
+
+        <CheckBox
+        android:id="@+id/cm_sensor_acc_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cm_sensor_rateRadioGroup"
+        android:layout_below="@+id/cm_sensor_rateRadioGroup"
+        android:layout_marginTop="25dp"
+        android:text="@string/cm_sensor_acc" />
+        
+        <TextView
+        android:id="@+id/cm_sensor_gyro_data_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/cm_sensor_acc_data_txt"
+        android:layout_below="@+id/cm_sensor_gyro_check_box"
+        android:text="@string/cm_sensor_xyz" />
+
+        <TextView
+        android:id="@+id/cm_sensor_gyro_stat"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignBaseline="@+id/cm_sensor_gyro_data_txt"
+        android:layout_alignBottom="@+id/cm_sensor_gyro_data_txt"
+        android:layout_alignLeft="@+id/cm_sensor_acc_stat"
+        android:text="@string/cm_sensor_statistic" />
+
+        <TextView
+        android:id="@+id/cm_sensor_acc_stat"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_above="@+id/cm_sensor_gyro_check_box"
+        android:layout_marginLeft="42dp"
+        android:layout_toRightOf="@+id/cm_sensor_rateRadioGroup"
+        android:text="@string/cm_sensor_statistic" />
+
+        <CheckBox
+        android:id="@+id/cm_sensor_gyro_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cm_sensor_acc_check_box"
+        android:layout_below="@+id/cm_sensor_acc_data_txt"
+        android:layout_marginTop="16dp"
+        android:text="@string/cm_sensor_gyro" />
+
+        <TextView
+        android:id="@+id/cm_sensor_acc_data_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/cm_sensor_acc_check_box"
+        android:layout_below="@+id/cm_sensor_acc_check_box"
+        android:layout_marginLeft="32dp"
+        android:text="@string/cm_sensor_xyz" />
+    </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

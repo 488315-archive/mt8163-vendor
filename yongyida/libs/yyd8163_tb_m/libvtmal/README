@@ -1,0 +1,26 @@
+This module creates the libvtmal.so libary file.
+
+WHAT IT DOES?
+=============
+libvtmal mainly used for multimedia control for 3G VT
+
+ 
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+    libcutils, libutils,libui, libgui, libinder,libblisrc	
+
+and the following libs from MediaTek:
+
+    libamrvt,libcamera_client,libmtkcamera_client,libskia,libvt_custom,libamr_wrap,libawb_wrap,libstagefright, libmedia
+    
+    
+HOW TO USE IT?
+==============
+
+The libvtmal libraries should not be used directly by an application developer.  
+Used by JNI layer
+
+The majority of source code for this library were written by MediaTek.  Various
+open source libraries are also used and contained in this folder.
