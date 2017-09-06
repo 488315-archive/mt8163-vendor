@@ -457,6 +457,38 @@
 	#define BAR_RIGHT           (608)
 	#define BAR_BOTTOM          (477)
 
+#elif defined(YYD1024) 
+
+// battery capacity rectangle
+#define CAPACITY_LEFT				 (444) // battery capacity center
+#define CAPACITY_TOP				 (230)
+#define CAPACITY_RIGHT				 (579) // 444 + 135
+#define CAPACITY_BOTTOM 			 (446)
+
+// first number rectangle
+#define NUMBER_LEFT 				 (466) // number
+#define NUMBER_TOP					 (90)
+#define NUMBER_RIGHT				 (504) // 466 + 38
+#define NUMBER_BOTTOM				 (144) // 90 + 54
+
+// %  rectangle
+#define PERCENT_LEFT				 (542) // percent number_left + 2*number_width
+#define PERCENT_TOP 				 (90)
+#define PERCENT_RIGHT				 (590)
+#define PERCENT_BOTTOM				 (144)
+
+// top animation part
+#define TOP_ANIMATION_LEFT			 (444) // top animation
+#define TOP_ANIMATION_TOP			 (100)
+#define TOP_ANIMATION_RIGHT 		 (579)
+#define TOP_ANIMATION_BOTTOM		 (124)
+
+// for old animation
+#define BAR_LEFT			(414)
+#define BAR_TOP 			(186)
+#define BAR_RIGHT			(608)
+#define BAR_BOTTOM			(477)
+
 #elif defined(WXGANL) || defined(HD720NL)
 	// wxganl 1280*800   hd720nl 1280*720
 	
