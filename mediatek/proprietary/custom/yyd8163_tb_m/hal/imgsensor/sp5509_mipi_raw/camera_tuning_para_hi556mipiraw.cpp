@@ -1,7 +1,7 @@
 #include <utils/Log.h>
 #include <fcntl.h>
 #include <math.h>
-
+#include <cstring>
 #include "camera_custom_nvram.h"
 #include "camera_custom_sensor.h"
 #include "image_sensor.h"
@@ -148,7 +148,7 @@ const NVRAM_CAMERA_ISP_PARAM_STRUCT CAMERA_ISP_DEFAULT_VALUE =
     },
 
     //bInvokeSmoothCCM
-    bInvokeSmoothCCM: MTRUE
+    bInvokeSmoothCCM: MTRUE,
 
     DngMetadata:{
       0, // i4RefereceIlluminant1
