@@ -819,12 +819,16 @@ static unsigned int lcm_compare_id(void)
 	 int id1=0;
 	 int id2=0;
 	 
-	 SET_RESET_PIN(1);
-	 MDELAY(10);
-	 SET_RESET_PIN(0);
-	 MDELAY(10);
-	 SET_RESET_PIN(1);
-	 MDELAY(120);
+	mt_set_gpio_mode(GPIO_LCM_RST, GPIO_MODE_00);
+	mt_set_gpio_pull_enable(GPIO_LCM_RST, GPIO_PULL_ENABLE);
+	mt_set_gpio_dir(GPIO_LCM_RST, GPIO_DIR_OUT);
+	
+	mt_set_gpio_out(GPIO_LCM_RST, GPIO_OUT_ONE);
+	MDELAY(10);
+	mt_set_gpio_out(GPIO_LCM_RST, GPIO_OUT_ZERO);
+	MDELAY(10);
+	mt_set_gpio_out(GPIO_LCM_RST, GPIO_OUT_ONE);
+	MDELAY(150);
 	 
 	 array[0]=0x01FE1500;
 	 dsi_set_cmdq(array,1, 1);

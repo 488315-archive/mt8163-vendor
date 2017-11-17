@@ -664,6 +664,7 @@ static void lcm_init(void)
 	MDELAY(150);
 
 	push_table(lcm_initialization_setting, sizeof(lcm_initialization_setting) / sizeof(struct LCM_setting_table), 1);
+	
 }
 
 
@@ -698,11 +699,17 @@ static unsigned int lcm_compare_id(void)
 	unsigned char buffer[3];
 	unsigned int array[16];
 	
-	SET_RESET_PIN(1);  //NOTE:should reset LCM firstly
-	SET_RESET_PIN(0);
-	MDELAY(6);
-	SET_RESET_PIN(1);
-	MDELAY(50);
+	  //NOTE:should reset LCM firstly
+	mt_set_gpio_mode(GPIO_LCM_RST, GPIO_MODE_00);
+	mt_set_gpio_pull_enable(GPIO_LCM_RST, GPIO_PULL_ENABLE);
+	mt_set_gpio_dir(GPIO_LCM_RST, GPIO_DIR_OUT);
+	
+	mt_set_gpio_out(GPIO_LCM_RST, GPIO_OUT_ONE);
+	MDELAY(100);
+	mt_set_gpio_out(GPIO_LCM_RST, GPIO_OUT_ZERO);
+	MDELAY(100);
+	mt_set_gpio_out(GPIO_LCM_RST, GPIO_OUT_ONE);
+	MDELAY(150);
 
 	array[0] = 0x00033700;// read id return two byte,version and id
 	dsi_set_cmdq(array, 1, 1);
