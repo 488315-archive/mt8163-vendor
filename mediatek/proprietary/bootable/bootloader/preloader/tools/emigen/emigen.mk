@@ -12,8 +12,14 @@ ALL_EMIGEN_FILE += \
 	custom_emi.c
 endif
 
+ifdef MTK_Y20D_DDR_SUPPORT
+CUSTOM_MEMORY_HDR := $(MTK_PATH_CUSTOM)/inc/custom_MemoryDevice_y20d.h
+else
+CUSTOM_MEMORY_HDR := $(MTK_PATH_CUSTOM)/inc/custom_MemoryDevice.h 
+endif
+
 EMIGEN_FILE_LIST := $(addprefix $(EMIGEN_OUT)/,$(ALL_EMIGEN_FILE))
-CUSTOM_MEMORY_HDR := $(MTK_PATH_CUSTOM)/inc/custom_MemoryDevice.h
+#CUSTOM_MEMORY_HDR := $(MTK_PATH_CUSTOM)/inc/custom_MemoryDevice.h
 ifeq ($(MACH_TYPE),mt6735m)
 MEMORY_DEVICE_XLS := $(D_ROOT)/tools/emigen/MT6735/MemoryDeviceList_MT6735M.xls
 else ifeq ($(MACH_TYPE),mt6753)
