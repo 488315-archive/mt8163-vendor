@@ -218,6 +218,7 @@ static int on_uevent(const char *buf, int len_buf)
 				setchg_breathled_color("chest","Green");
 				setchg_breathled_frequency("chest", "Const");
 			}
+#if 0			
 #if defined(MTK_CUSTOM_ZHI_KANG_CHARGING_LED)
 
 #else
@@ -230,16 +231,17 @@ static int on_uevent(const char *buf, int len_buf)
 				setchg_breathled_color("ear", "Red");
 				setchg_breathled_color("chest","Red");			
 			} 
-#endif			
+#endif		
+#endif
 			else {
 			if (nCurrentState != LIGHTS_STATE_CHGON)
              	          set_light_state(LIGHTS_CHGON);
 			lights_on();
-#if defined(MTK_CUSTOM_ZHI_KANG_CHARGING_LED)
+//#if defined(MTK_CUSTOM_ZHI_KANG_CHARGING_LED)
 
 			setchg_breathled_color("ear", "Red");
 			setchg_breathled_color("chest","Red");
-#endif			
+//#endif			
 		}
 	}
 	else
